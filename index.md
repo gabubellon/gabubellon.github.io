@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 ## Hello, I’m Gabriel Bellon
 
 I’m an Data Analyst and Startup Founder living in Campinas, Brazil.
@@ -18,9 +15,6 @@ Meet my Startups:
 Contat by:
 - Personal: <gabubellon@gmail.com>
 - Business: <gabriel@udatatools.com>
-
-</body>
-</html>
 
 
 
