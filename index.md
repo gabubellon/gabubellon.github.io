@@ -9,7 +9,7 @@ You can find me on:
 - [Twitter](http://www.twitter.com/gabubellon)
 
 Meet my Startups:
-- [uDataTools](http://www.udatatools.com)
+- [uDataTools](http://udatatools.com)
 - [LampBlock](http://www.lampblock.com)
 
 Contat by:
