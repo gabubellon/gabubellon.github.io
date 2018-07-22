@@ -1,6 +1,6 @@
 ## Hello, I’m Gabriel Bellon
 
-I’m an Data Scientist , Data Analyst and Startup Founder living in Joinville,SC, Brazil.
+I’m an Data Scientist , Data Analyst and Startup Founder living in Joinville, SC, Brazil.
 
 You can find me on:
 
