@@ -62,6 +62,6 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - CNAME
-  - favicon_io/
   - Makefile
   - "*.log"
+  - favicon_io
