@@ -1,0 +1,66 @@
+### Site Settings ###
+title               : Gabu Bellon Personal Page
+description         : "I`m Gabriel Bellon, aka Gabu, and this my personal homepage! You are welcome !"
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : gabubellon/gabubellon.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU@v2.2.2
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Gabriel Bellon
+  image             : https://avatars1.githubusercontent.com/u/7385097?s=400&u=96a78b93bc515a8b6a215a19f0804bf66d09d7ea&v=4
+  email             : talk@gabubellon.me
+  github            : gabubellon
+  linkedin          : gabubellon
+  twitter           : gabubellon
+  instagram         : gabubellon
+  speakerdeck       : gabubellon
+
+
+### Posts ###
+permalink: /blog/:title
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  presentations:
+      output: true
+      permalink: /presentations/:name
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "presentations"
+    values:
+      layout: "page"
+      
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - CNAME
+  - Makefile
+  - "*.log"

@@ -1,0 +1,11 @@
+- name: Python
+  percentage: 70
+  color: danger
+
+- name: SQL
+  percentage: 100
+  color:
+
+- name: Bash
+  percentage: 30
+  color: dark

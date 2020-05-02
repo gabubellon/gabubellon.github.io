@@ -1,0 +1,19 @@
+[
+  
+    {
+      "title"    : "Combinando o virtualenvwarpper com o pyenv",
+      "category" : "",
+      "tags"     : "pyenv, python, virtualenv, code, virtualenvwarpper",
+      "url"      : "/blog/virtualenvwarpper-pyenv",
+      "date"     : "2020-01-10 00:00:00 -0300"
+    } ,
+  
+    {
+      "title"    : "Instalando e utilizando o pyenv",
+      "category" : "",
+      "tags"     : "pyenv, python, virtualenv, code",
+      "url"      : "/blog/pyenv",
+      "date"     : "2020-01-01 00:00:00 -0300"
+    } 
+  
+]
