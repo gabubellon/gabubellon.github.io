@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I`m Gabriel Bellon, aka Gabu, and this my personal homepage! You are welcome !">
+
+  <title>Gabu Bellon Personal Page</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+</head>
+
+
+<body class="d-flex flex-column h-100">
+
+  <main class="flex-shrink-0 container mt-5">
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+  <a class="navbar-brand" href="/"><h5><b>Gabu Bellon Personal Page</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/presentations/">Presentations</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+    </div>
+  </div>
+
+</nav>
+  <div class="col-lg-10 mx-auto mt-5 post">
+  <h1><b>Combinando o virtualenvwarpper com o pyenv</b></h1>
+
+<p class="post-metadata text-muted">
+  10 January 2020 -  
+  <b>5 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#pyenv">
+      <span class="tag badge badge-pill text-primary border border-primary">pyenv</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#python">
+      <span class="tag badge badge-pill text-primary border border-primary">python</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#virtualenv">
+      <span class="tag badge badge-pill text-primary border border-primary">virtualenv</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#code">
+      <span class="tag badge badge-pill text-primary border border-primary">code</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#virtualenvwarpper">
+      <span class="tag badge badge-pill text-primary border border-primary">virtualenvwarpper</span>
+    </a>
+    </p>
+
+<h1 id="virtualenvwarpper-e-pyenv">virtualenvwarpper e pyenv</h1>
+
+<p>O virtualenvwarpper é um plugin que que cria alguns a facilitadores e atalhos para utilizar ambientes virtuais com o python. Mais detalhes na documentação oficial: <a href="https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html">https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html</a>.</p>
+
+<p>Combinando o mesmo com o pyenv temos o <em>pyenv-virtualenvwrapper</em>, um plugin do pyenv que permite criar ambientes virtuais de forma rápida e prática utilizando todas as versões de python gerenciadas pelo pyenv.</p>
+
+<blockquote>
+  <p><strong>Para Ler na antes:</strong> <a href="/blog/pyenv">Instalando e utilizando o pyenv</a></p>
+</blockquote>
+
+<h2 id="instalando-pyenv-virtualenvwrapper">Instalando pyenv-virtualenvwrapper</h2>
+
+<p>A instalação é realizada seguindo as recomendações do repositório oficial <a href="https://github.com/pyenv/pyenv-virtualenvwrapper">https://github.com/pyenv/pyenv-virtualenvwrapper</a></p>
+
+<p>As versões de python <code class="language-plaintext highlighter-rouge">global</code> do pyenv precisam ter o <code class="language-plaintext highlighter-rouge">virtualenvwrapper</code> instalados:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#pip e pip3 caso tenha python2.7 e python3 simultaneamente.</span>
+pip <span class="nb">install </span>setuptools
+pip <span class="nb">install </span>virtualenvwrapper
+pip3 <span class="nb">install </span>setuptools
+pip3 <span class="nb">install </span>virtualenvwrapper
+</code></pre></div></div>
+
+<p>Instalando o <em>pyenv-virtualenvwrapper</em>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#$(pyenv root) é o a variável do pyenv que indica onde o mesmo está instalado. </span>
+git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git <span class="si">$(</span>pyenv root<span class="si">)</span>/plugins/pyenv-virtualenvwrapper
+</code></pre></div></div>
+
+<p>on :</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/.pyenv/bin:</span><span class="nv">$PATH</span><span class="s2">"</span>
+<span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>pyenv init -<span class="si">)</span><span class="s2">"</span>
+<span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>pyenv virtualenv-init -<span class="si">)</span><span class="s2">"</span>
+</code></pre></div></div>
+
+<p>É necessário modifcar o arquivo de configuração de seu interpretador de comandas (.bashrc para o bash ou .zshrc para zsh/ohmyzsh) e adicionar algumas linhas antes e depois as configurações do pyenv</p>
+
+<p>Adicionar antes:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#Configurações do virtualenvwrapper</span>
+<span class="nb">export </span><span class="nv">WORKON_HOME</span><span class="o">=</span><span class="nv">$HOME</span>/.virtualenvs <span class="c">#virtualenvs folder</span>
+<span class="nb">source</span> <span class="nv">$HOME</span>/.local/bin/virtualenvwrapper.sh <span class="c">#virtualenvwrapper script location</span>
+</code></pre></div></div>
+
+<p>Adicionar depois:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#deixar explicito para o pyenv o uso do virtualenvwrapper</span>
+<span class="nb">export </span><span class="nv">PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV</span><span class="o">=</span><span class="s2">"true"</span>
+</code></pre></div></div>
+
+<p>No final terá algo similar a:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#Configurações do virtualenvwrapper</span>
+<span class="nb">export </span><span class="nv">WORKON_HOME</span><span class="o">=</span><span class="nv">$HOME</span>/.virtualenvs <span class="c">#virtualenvs folder</span>
+<span class="nb">source</span> <span class="nv">$HOME</span>/.local/bin/virtualenvwrapper.sh <span class="c">#virtualenvwrapper script location</span>
+
+<span class="c">#Bloco do pyenv já existente no arquivo</span>
+<span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/.pyenv/bin:</span><span class="nv">$PATH</span><span class="s2">"</span>
+<span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>pyenv init -<span class="si">)</span><span class="s2">"</span>
+<span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>pyenv virtualenv-init -<span class="si">)</span><span class="s2">"</span>
+
+<span class="c">#deixar explicito para o pyenv o uso do virtualenvwrapper</span>
+<span class="nb">export </span><span class="nv">PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV</span><span class="o">=</span><span class="s2">"true"</span>
+</code></pre></div></div>
+
+<h3 id="exemplo-de-uso-pyenv-virtualenvwrapper">Exemplo de uso pyenv-virtualenvwrapper</h3>
+
+<p>No exemplo a seguir estamos configurando a versão global do python para a <code class="language-plaintext highlighter-rouge">miniconda3-latest</code>, após isso é criado um virutalenv com o virtualenvwrapper (<code class="language-plaintext highlighter-rouge">test_conda</code>).</p>
+
+<p>Voltamos a versão global do python para a <code class="language-plaintext highlighter-rouge">system e 3.7.4</code>, acessamos o virtualenv criado (<code class="language-plaintext highlighter-rouge">test_conda</code>) e verificamos que o mesmo foi criado utilizando o python da instalação do <code class="language-plaintext highlighter-rouge">miniconda3-latest</code></p>
+
+<p>Um novo virtualenv é criado (<code class="language-plaintext highlighter-rouge">test_2.7</code>) e ativado, validando que o mesmo utilizou a versão de python configurada como padrão (<code class="language-plaintext highlighter-rouge">system</code>)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pyenv global
+<span class="o">&gt;</span> system
+<span class="o">&gt;</span> 3.7.4
+<span class="o">&gt;</span>
+<span class="nv">$ </span>pyenv global miniconda3-latest
+<span class="nv">$ </span><span class="o">(</span>miniconda3-latest<span class="o">)</span> 
+<span class="nv">$ </span>python
+<span class="o">&gt;</span> Python 3.7.4 <span class="o">(</span>default, Aug 13 2019, 15:17:50<span class="o">)</span>
+<span class="o">&gt;</span> <span class="o">[</span>Clang 4.0.1 <span class="o">(</span>tags/RELEASE_401/final<span class="o">)]</span> :: Anaconda, Inc. on darwin
+<span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
+<span class="o">&gt;</span> <span class="o">&gt;&gt;&gt;</span> <span class="nb">exit</span><span class="o">()</span>
+<span class="o">&gt;</span>
+<span class="nv">$ </span><span class="o">(</span>miniconda3-latest<span class="o">)</span>
+<span class="nv">$ </span>mkvirtualenv test_conda
+<span class="o">&gt;</span> WARNING: the pyenv script is deprecated <span class="k">in </span>favour of <span class="sb">`</span>python3.7 <span class="nt">-m</span> venv<span class="sb">`</span>
+<span class="o">&gt;</span> <span class="o">(</span>miniconda3-latest<span class="o">)</span>
+<span class="o">&gt;</span> <span class="nv">$ </span>pyenv global system 3.7.4
+<span class="o">&gt;</span>
+<span class="nv">$ </span>workon test_conda
+<span class="o">&gt;</span> <span class="o">(</span>test_conda<span class="o">)</span>
+<span class="nv">$ </span>python
+<span class="o">&gt;</span> Python 3.7.4 <span class="o">(</span>default, Aug 13 2019, 15:17:50<span class="o">)</span>
+<span class="o">&gt;</span> <span class="o">[</span>Clang 4.0.1 <span class="o">(</span>tags/RELEASE_401/final<span class="o">)]</span> :: Anaconda, Inc. on darwin
+<span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
+<span class="o">&gt;</span> <span class="o">&gt;&gt;&gt;</span> <span class="nb">exit</span><span class="o">()</span>
+<span class="o">&gt;</span> <span class="o">(</span>test_conda<span class="o">)</span> 
+<span class="nv">$ </span>deactivate
+<span class="o">&gt;</span>
+<span class="nv">$ </span>python
+<span class="o">&gt;</span> WARNING: Python 2.7 is not recommended.
+<span class="o">&gt;</span> This version is included <span class="k">in </span>macOS <span class="k">for </span>compatibility with legacy software.
+<span class="o">&gt;</span> Future versions of macOS will not include Python 2.7.
+<span class="o">&gt;</span> Instead, it is recommended that you transition to using <span class="s1">'python3'</span> from within Terminal.
+<span class="o">&gt;</span> 
+<span class="o">&gt;</span> Python 2.7.16 <span class="o">(</span>default, Dec 13 2019, 18:00:32<span class="o">)</span>
+<span class="o">&gt;</span> <span class="o">[</span>GCC 4.2.1 Compatible Apple LLVM 11.0.0 <span class="o">(</span>clang-1100.0.32.4<span class="o">)</span> <span class="o">(</span><span class="nt">-macos10</span>.15-objc-s on darwin
+<span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
+<span class="o">&gt;</span> <span class="o">&gt;&gt;&gt;</span> <span class="nb">exit</span><span class="o">()</span>
+<span class="o">&gt;</span>
+<span class="nv">$ </span>mkvirtualenv test_2.7
+<span class="o">&gt;</span> New python executable <span class="k">in</span> /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/python
+<span class="o">&gt;</span> Installing setuptools, pip, wheel...
+<span class="o">&gt;</span> <span class="k">done</span><span class="nb">.</span>
+<span class="o">&gt;</span> virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/predeactivate
+<span class="o">&gt;</span> virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/postdeactivate
+<span class="o">&gt;</span> virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/preactivate
+<span class="o">&gt;</span> virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/postactivate
+<span class="o">&gt;</span> virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/get_env_details
+<span class="o">&gt;</span> <span class="o">(</span>test_2.7<span class="o">)</span> 
+<span class="o">&gt;</span> <span class="nv">$ </span>python
+<span class="o">&gt;</span> WARNING: Python 2.7 is not recommended.
+<span class="o">&gt;</span> This version is included <span class="k">in </span>macOS <span class="k">for </span>compatibility with legacy software.
+<span class="o">&gt;</span> Future versions of macOS will not include Python 2.7.
+<span class="o">&gt;</span> Instead, it is recommended that you transition to using <span class="s1">'python3'</span> from within Terminal.
+<span class="o">&gt;</span> 
+<span class="o">&gt;</span> Python 2.7.16 <span class="o">(</span>default, Dec 13 2019, 18:00:32<span class="o">)</span>
+<span class="o">&gt;</span> <span class="o">[</span>GCC 4.2.1 Compatible Apple LLVM 11.0.0 <span class="o">(</span>clang-1100.0.32.4<span class="o">)</span> <span class="o">(</span><span class="nt">-macos10</span>.15-objc-s on darwin
+<span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
+<span class="o">&gt;</span> <span class="o">&gt;&gt;&gt;</span> <span class="nb">exit</span><span class="o">()</span>
+<span class="o">&gt;</span> <span class="o">(</span>test_2.7<span class="o">)</span> 
+<span class="nv">$ </span>deactivate
+<span class="o">&gt;</span> 
+<span class="nv">$ </span>pyenv global
+<span class="o">&gt;</span> system
+<span class="o">&gt;</span> 3.7.4
+</code></pre></div></div>
+
+<p>Uma vez com a configurações criadas é testada, agora fica prático realizar o gerenciamento de múltiplos projetos python com diferentes versões.
+Com o uso do <em>pyenv</em> e do <em>pyenv-virtualenvwrapper</em> criar combinações de instalações e ambientes virtuais padrões para qualquer situação de projeto.</p>
+
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Gabriel Bellon</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:talk@gabubellon.me"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/gabubellon"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/gabubellon"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/gabubellon"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/gabubellon"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://speakerdeck.com/gabubellon"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-speaker-deck fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+</body>
+
+</html>
