@@ -151,6 +151,17 @@ git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git &lt;span class=&q
 &lt;p&gt;Uma vez com a configurações criadas é testada, agora fica prático realizar o gerenciamento de múltiplos projetos python com diferentes versões.
 Com o uso do &lt;em&gt;pyenv&lt;/em&gt; e do &lt;em&gt;pyenv-virtualenvwrapper&lt;/em&gt; criar combinações de instalações e ambientes virtuais padrões para qualquer situação de projeto.&lt;/p&gt;
 </description>
+        
+          <category>pyenv</category>
+        
+          <category>python</category>
+        
+          <category>virtualenv</category>
+        
+          <category>code</category>
+        
+          <category>virtualenvwarpper</category>
+        
         <pubDate>Fri, 10 Jan 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000//blog/virtualenvwarpper-pyenv</link>
         <guid isPermaLink="true">http://localhost:4000//blog/virtualenvwarpper-pyenv</guid>
@@ -364,6 +375,15 @@ sendo o comandos &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
   &lt;p&gt;&lt;strong&gt;Para Ler na sequência:&lt;/strong&gt; &lt;a href=&quot;/blog/virtualenvwarpper-pyenv&quot;&gt;Combinando o virtualenvwarpper com o pyenv &lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
+        
+          <category>pyenv</category>
+        
+          <category>python</category>
+        
+          <category>virtualenv</category>
+        
+          <category>code</category>
+        
         <pubDate>Wed, 01 Jan 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000//blog/pyenv</link>
         <guid isPermaLink="true">http://localhost:4000//blog/pyenv</guid>
