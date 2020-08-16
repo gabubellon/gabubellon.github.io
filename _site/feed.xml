@@ -8,7 +8,7 @@
     
       <item>
         <title>Combinando o virtualenvwarpper com o pyenv</title>
-        <description>&lt;h1 id=&quot;virtualenvwarpper-e-pyenv&quot;&gt;virtualenvwarpper e pyenv&lt;/h1&gt;
+        <description>&lt;h2 id=&quot;virtualenvwarpper-e-pyenv&quot;&gt;virtualenvwarpper e pyenv&lt;/h2&gt;
 
 &lt;p&gt;O virtualenvwarpper é um plugin que que cria alguns a facilitadores e atalhos para utilizar ambientes virtuais com o python. Mais detalhes na documentação oficial: &lt;a href=&quot;https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html&quot;&gt;https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html&lt;/a&gt;.&lt;/p&gt;
 
@@ -33,17 +33,18 @@ pip3 &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;virtualenvwrapper
 
 &lt;p&gt;Instalando o &lt;em&gt;pyenv-virtualenvwrapper&lt;/em&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#$(pyenv root) é o a variável do pyenv que indica onde o mesmo está instalado. &lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#$(pyenv root) é o a variável do pyenv que indica onde o mesmo está instalado.&lt;/span&gt;
 git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;pyenv root&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;/plugins/pyenv-virtualenvwrapper
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;on :&lt;/p&gt;
+
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/.pyenv/bin:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;pyenv init -&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;pyenv virtualenv-init -&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;É necessário modifcar o arquivo de configuração de seu interpretador de comandas (.bashrc para o bash ou .zshrc para zsh/ohmyzsh) e adicionar algumas linhas antes e depois as configurações do pyenv&lt;/p&gt;
+&lt;p&gt;É necessário modificar o arquivo de configuração de seu interpretador de comandas (.bashrc para o bash ou .zshrc para zsh/ohmyzsh) e adicionar algumas linhas antes e depois as configurações do pyenv&lt;/p&gt;
 
 &lt;p&gt;Adicionar antes:&lt;/p&gt;
 
@@ -86,7 +87,7 @@ git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git &lt;span class=&q
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 3.7.4
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pyenv global miniconda3-latest
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;miniconda3-latest&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;miniconda3-latest&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.7.4 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Aug 13 2019, 15:17:50&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Clang 4.0.1 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;tags/RELEASE_401/final&lt;span class=&quot;o&quot;&gt;)]&lt;/span&gt; :: Anaconda, Inc. on darwin
@@ -106,7 +107,7 @@ git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git &lt;span class=&q
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Clang 4.0.1 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;tags/RELEASE_401/final&lt;span class=&quot;o&quot;&gt;)]&lt;/span&gt; :: Anaconda, Inc. on darwin
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;test_conda&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;test_conda&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;deactivate
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python
@@ -114,7 +115,7 @@ git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git &lt;span class=&q
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; This version is included &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;macOS &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;compatibility with legacy software.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Future versions of macOS will not include Python 2.7.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Instead, it is recommended that you transition to using &lt;span class=&quot;s1&quot;&gt;'python3'&lt;/span&gt; from within Terminal.
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 2.7.16 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Dec 13 2019, 18:00:32&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GCC 4.2.1 Compatible Apple LLVM 11.0.0 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;clang-1100.0.32.4&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-macos10&lt;/span&gt;.15-objc-s on darwin
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.
@@ -129,20 +130,20 @@ git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git &lt;span class=&q
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/preactivate
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/postactivate
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/get_env_details
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;test_2.7&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;test_2.7&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; WARNING: Python 2.7 is not recommended.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; This version is included &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;macOS &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;compatibility with legacy software.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Future versions of macOS will not include Python 2.7.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Instead, it is recommended that you transition to using &lt;span class=&quot;s1&quot;&gt;'python3'&lt;/span&gt; from within Terminal.
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 2.7.16 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Dec 13 2019, 18:00:32&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GCC 4.2.1 Compatible Apple LLVM 11.0.0 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;clang-1100.0.32.4&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-macos10&lt;/span&gt;.15-objc-s on darwin
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;test_2.7&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;test_2.7&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;deactivate
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pyenv global
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; system
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 3.7.4
@@ -169,7 +170,7 @@ Com o uso do &lt;em&gt;pyenv&lt;/em&gt; e do &lt;em&gt;pyenv-virtualenvwrapper&l
     
       <item>
         <title>Instalando e utilizando o pyenv</title>
-        <description>&lt;h1 id=&quot;pyenv&quot;&gt;pyenv&lt;/h1&gt;
+        <description>&lt;h2 id=&quot;pyenv&quot;&gt;pyenv&lt;/h2&gt;
 
 &lt;p&gt;Pyenv é um gerenciador criado para controlar múltiplas versões de python em um mesmo ambiente.
 O mesmo permite ter versões distintas sendo executadas, além de se combinar com a criação de ambientes virtuais.&lt;/p&gt;
@@ -182,9 +183,10 @@ O mesmo permite ter versões distintas sendo executadas, além de se combinar co
 &lt;p&gt;Ou utilizar um script de instalação que auxila em algumas configurações:
 &lt;a href=&quot;https://github.com/pyenv/pyenv-installer&quot;&gt;https://github.com/pyenv/pyenv-installer&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#Executando pela instalação purta &lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#Executando pela instalação purta&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;curl https://pyenv.run | bash
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;ou&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#Utilizando o script de instalação&lt;/span&gt;
@@ -202,6 +204,7 @@ O mesmo permite ter versões distintas sendo executadas, além de se combinar co
 &lt;p&gt;Abra um novo terminal (ou execute um &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;source .bashrc&lt;/code&gt; por exemplo) e execute o comando para verificar a instalação:&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pyenv
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Deve retornar algo parecido dependendo da versão atual:&lt;/p&gt;
@@ -234,7 +237,7 @@ O mesmo permite ter versões distintas sendo executadas, além de se combinar co
   &lt;li&gt;&lt;strong&gt;Instalar a versão &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python 3.5.7&lt;/code&gt;:&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pyenv &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;3.5.7 
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pyenv &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;3.5.7
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Downloading Python-3.5.7.tar.xz...
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; -&amp;gt; https://www.python.org/ftp/python/3.5.7/Python-3.5.7.tar.xz
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Installing Python-3.5.7...
@@ -276,13 +279,13 @@ O mesmo permite ter versões distintas sendo executadas, além de se combinar co
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.5.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jun 21 2019, 17:36:06&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.5.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jun 21 2019, 17:36:06&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GCC 7.4.0] on linux
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ...
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python3
-Python 3.5.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jun 21 2019, 17:36:06&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+Python 3.5.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jun 21 2019, 17:36:06&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GCC 7.4.0] on linux
 Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;  
@@ -308,13 +311,13 @@ Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span cl
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.5.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jun 21 2019, 17:36:06&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.5.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jun 21 2019, 17:36:06&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GCC 7.4.0] on linux
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ...
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python3.6
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.6.8 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jan 14 2019, 11:02:34&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.6.8 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jan 14 2019, 11:02:34&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GCC 8.0.1 20180414 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;experimental&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;trunk revision 259383]] on linux
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
@@ -345,19 +348,19 @@ sendo o comandos &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 2.7.15+ &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Nov 27 2018, 23:36:35&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 2.7.15+ &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Nov 27 2018, 23:36:35&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GCC 7.3.0] on linux2
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;...&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python3
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.6.8 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jan 14 2019, 11:02:34&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.6.8 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jan 14 2019, 11:02:34&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GCC 8.0.1 20180414 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;experimental&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;trunk revision 259383]] on linux
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;...&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python3.5
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.5.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jun 21 2019, 17:36:06&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Python 3.5.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default, Jun 21 2019, 17:36:06&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GCC 7.4.0] on linux
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; Type &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;credits&quot;&lt;/span&gt; or &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;more information.&amp;gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
@@ -372,7 +375,7 @@ sendo o comandos &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;Para mais detalhes, documentações e exemplos consulte o repositório oficial da ferramenta: &lt;a href=&quot;https://github.com/pyenv/pyenv&quot;&gt;https://github.com/pyenv/pyenv&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Para Ler na sequência:&lt;/strong&gt; &lt;a href=&quot;/blog/virtualenvwarpper-pyenv&quot;&gt;Combinando o virtualenvwarpper com o pyenv &lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Para Ler na sequência:&lt;/strong&gt; &lt;a href=&quot;/blog/virtualenvwarpper-pyenv&quot;&gt;Combinando o virtualenvwarpper com o pyenv &lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         

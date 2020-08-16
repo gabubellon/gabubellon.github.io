@@ -89,7 +89,7 @@
     </a>
     </p>
 
-<h1 id="virtualenvwarpper-e-pyenv">virtualenvwarpper e pyenv</h1>
+<h2 id="virtualenvwarpper-e-pyenv">virtualenvwarpper e pyenv</h2>
 
 <p>O virtualenvwarpper é um plugin que que cria alguns a facilitadores e atalhos para utilizar ambientes virtuais com o python. Mais detalhes na documentação oficial: <a href="https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html">https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html</a>.</p>
 
@@ -114,17 +114,18 @@ pip3 <span class="nb">install </span>virtualenvwrapper
 
 <p>Instalando o <em>pyenv-virtualenvwrapper</em>:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#$(pyenv root) é o a variável do pyenv que indica onde o mesmo está instalado. </span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#$(pyenv root) é o a variável do pyenv que indica onde o mesmo está instalado.</span>
 git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git <span class="si">$(</span>pyenv root<span class="si">)</span>/plugins/pyenv-virtualenvwrapper
 </code></pre></div></div>
 
 <p>on :</p>
+
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/.pyenv/bin:</span><span class="nv">$PATH</span><span class="s2">"</span>
 <span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>pyenv init -<span class="si">)</span><span class="s2">"</span>
 <span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>pyenv virtualenv-init -<span class="si">)</span><span class="s2">"</span>
 </code></pre></div></div>
 
-<p>É necessário modifcar o arquivo de configuração de seu interpretador de comandas (.bashrc para o bash ou .zshrc para zsh/ohmyzsh) e adicionar algumas linhas antes e depois as configurações do pyenv</p>
+<p>É necessário modificar o arquivo de configuração de seu interpretador de comandas (.bashrc para o bash ou .zshrc para zsh/ohmyzsh) e adicionar algumas linhas antes e depois as configurações do pyenv</p>
 
 <p>Adicionar antes:</p>
 
@@ -167,7 +168,7 @@ git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git <span class="si">
 <span class="o">&gt;</span> 3.7.4
 <span class="o">&gt;</span>
 <span class="nv">$ </span>pyenv global miniconda3-latest
-<span class="nv">$ </span><span class="o">(</span>miniconda3-latest<span class="o">)</span> 
+<span class="nv">$ </span><span class="o">(</span>miniconda3-latest<span class="o">)</span>
 <span class="nv">$ </span>python
 <span class="o">&gt;</span> Python 3.7.4 <span class="o">(</span>default, Aug 13 2019, 15:17:50<span class="o">)</span>
 <span class="o">&gt;</span> <span class="o">[</span>Clang 4.0.1 <span class="o">(</span>tags/RELEASE_401/final<span class="o">)]</span> :: Anaconda, Inc. on darwin
@@ -187,7 +188,7 @@ git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git <span class="si">
 <span class="o">&gt;</span> <span class="o">[</span>Clang 4.0.1 <span class="o">(</span>tags/RELEASE_401/final<span class="o">)]</span> :: Anaconda, Inc. on darwin
 <span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
 <span class="o">&gt;</span> <span class="o">&gt;&gt;&gt;</span> <span class="nb">exit</span><span class="o">()</span>
-<span class="o">&gt;</span> <span class="o">(</span>test_conda<span class="o">)</span> 
+<span class="o">&gt;</span> <span class="o">(</span>test_conda<span class="o">)</span>
 <span class="nv">$ </span>deactivate
 <span class="o">&gt;</span>
 <span class="nv">$ </span>python
@@ -195,7 +196,7 @@ git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git <span class="si">
 <span class="o">&gt;</span> This version is included <span class="k">in </span>macOS <span class="k">for </span>compatibility with legacy software.
 <span class="o">&gt;</span> Future versions of macOS will not include Python 2.7.
 <span class="o">&gt;</span> Instead, it is recommended that you transition to using <span class="s1">'python3'</span> from within Terminal.
-<span class="o">&gt;</span> 
+<span class="o">&gt;</span>
 <span class="o">&gt;</span> Python 2.7.16 <span class="o">(</span>default, Dec 13 2019, 18:00:32<span class="o">)</span>
 <span class="o">&gt;</span> <span class="o">[</span>GCC 4.2.1 Compatible Apple LLVM 11.0.0 <span class="o">(</span>clang-1100.0.32.4<span class="o">)</span> <span class="o">(</span><span class="nt">-macos10</span>.15-objc-s on darwin
 <span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
@@ -210,20 +211,20 @@ git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git <span class="si">
 <span class="o">&gt;</span> virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/preactivate
 <span class="o">&gt;</span> virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/postactivate
 <span class="o">&gt;</span> virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/get_env_details
-<span class="o">&gt;</span> <span class="o">(</span>test_2.7<span class="o">)</span> 
+<span class="o">&gt;</span> <span class="o">(</span>test_2.7<span class="o">)</span>
 <span class="o">&gt;</span> <span class="nv">$ </span>python
 <span class="o">&gt;</span> WARNING: Python 2.7 is not recommended.
 <span class="o">&gt;</span> This version is included <span class="k">in </span>macOS <span class="k">for </span>compatibility with legacy software.
 <span class="o">&gt;</span> Future versions of macOS will not include Python 2.7.
 <span class="o">&gt;</span> Instead, it is recommended that you transition to using <span class="s1">'python3'</span> from within Terminal.
-<span class="o">&gt;</span> 
+<span class="o">&gt;</span>
 <span class="o">&gt;</span> Python 2.7.16 <span class="o">(</span>default, Dec 13 2019, 18:00:32<span class="o">)</span>
 <span class="o">&gt;</span> <span class="o">[</span>GCC 4.2.1 Compatible Apple LLVM 11.0.0 <span class="o">(</span>clang-1100.0.32.4<span class="o">)</span> <span class="o">(</span><span class="nt">-macos10</span>.15-objc-s on darwin
 <span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
 <span class="o">&gt;</span> <span class="o">&gt;&gt;&gt;</span> <span class="nb">exit</span><span class="o">()</span>
-<span class="o">&gt;</span> <span class="o">(</span>test_2.7<span class="o">)</span> 
+<span class="o">&gt;</span> <span class="o">(</span>test_2.7<span class="o">)</span>
 <span class="nv">$ </span>deactivate
-<span class="o">&gt;</span> 
+<span class="o">&gt;</span>
 <span class="nv">$ </span>pyenv global
 <span class="o">&gt;</span> system
 <span class="o">&gt;</span> 3.7.4
