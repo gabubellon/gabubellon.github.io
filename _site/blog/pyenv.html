@@ -85,7 +85,7 @@
     </a>
     </p>
 
-<h1 id="pyenv">pyenv</h1>
+<h2 id="pyenv">pyenv</h2>
 
 <p>Pyenv é um gerenciador criado para controlar múltiplas versões de python em um mesmo ambiente.
 O mesmo permite ter versões distintas sendo executadas, além de se combinar com a criação de ambientes virtuais.</p>
@@ -98,9 +98,10 @@ O mesmo permite ter versões distintas sendo executadas, além de se combinar co
 <p>Ou utilizar um script de instalação que auxila em algumas configurações:
 <a href="https://github.com/pyenv/pyenv-installer">https://github.com/pyenv/pyenv-installer</a></p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#Executando pela instalação purta </span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#Executando pela instalação purta</span>
 <span class="nv">$ </span>curl https://pyenv.run | bash
 </code></pre></div></div>
+
 <p>ou</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#Utilizando o script de instalação</span>
@@ -118,6 +119,7 @@ O mesmo permite ter versões distintas sendo executadas, além de se combinar co
 <p>Abra um novo terminal (ou execute um <code class="language-plaintext highlighter-rouge">source .bashrc</code> por exemplo) e execute o comando para verificar a instalação:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pyenv
+<span class="o">&gt;</span>
 </code></pre></div></div>
 
 <p>Deve retornar algo parecido dependendo da versão atual:</p>
@@ -150,7 +152,7 @@ O mesmo permite ter versões distintas sendo executadas, além de se combinar co
   <li><strong>Instalar a versão <code class="language-plaintext highlighter-rouge">python 3.5.7</code>:</strong></li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pyenv <span class="nb">install </span>3.5.7 
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pyenv <span class="nb">install </span>3.5.7
 <span class="o">&gt;</span> Downloading Python-3.5.7.tar.xz...
 <span class="o">&gt;</span> -&gt; https://www.python.org/ftp/python/3.5.7/Python-3.5.7.tar.xz
 <span class="o">&gt;</span> Installing Python-3.5.7...
@@ -192,13 +194,13 @@ O mesmo permite ter versões distintas sendo executadas, além de se combinar co
 </ul>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python
-<span class="o">&gt;</span> Python 3.5.7 <span class="o">(</span>default, Jun 21 2019, 17:36:06<span class="o">)</span> 
+<span class="o">&gt;</span> Python 3.5.7 <span class="o">(</span>default, Jun 21 2019, 17:36:06<span class="o">)</span>
 <span class="o">&gt;</span> <span class="o">[</span>GCC 7.4.0] on linux
 <span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
 <span class="o">&gt;</span> <span class="o">&gt;&gt;</span>
 <span class="o">&gt;</span> ...
 <span class="nv">$ </span>python3
-Python 3.5.7 <span class="o">(</span>default, Jun 21 2019, 17:36:06<span class="o">)</span> 
+Python 3.5.7 <span class="o">(</span>default, Jun 21 2019, 17:36:06<span class="o">)</span>
 <span class="o">[</span>GCC 7.4.0] on linux
 Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
 <span class="o">&gt;</span> <span class="o">&gt;&gt;</span>  
@@ -224,13 +226,13 @@ Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span 
 </ul>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python
-<span class="o">&gt;</span> Python 3.5.7 <span class="o">(</span>default, Jun 21 2019, 17:36:06<span class="o">)</span> 
+<span class="o">&gt;</span> Python 3.5.7 <span class="o">(</span>default, Jun 21 2019, 17:36:06<span class="o">)</span>
 <span class="o">&gt;</span> <span class="o">[</span>GCC 7.4.0] on linux
 <span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
 <span class="o">&gt;</span> <span class="o">&gt;&gt;</span>
 <span class="o">&gt;</span> ...
 <span class="nv">$ </span>python3.6
-<span class="o">&gt;</span> Python 3.6.8 <span class="o">(</span>default, Jan 14 2019, 11:02:34<span class="o">)</span> 
+<span class="o">&gt;</span> Python 3.6.8 <span class="o">(</span>default, Jan 14 2019, 11:02:34<span class="o">)</span>
 <span class="o">&gt;</span> <span class="o">[</span>GCC 8.0.1 20180414 <span class="o">(</span>experimental<span class="o">)</span> <span class="o">[</span>trunk revision 259383]] on linux
 <span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
 <span class="o">&gt;&gt;&gt;</span>
@@ -261,19 +263,19 @@ sendo o comandos <code class="language-plaintext highlighter-rouge">python3.6</c
 </ul>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python
-<span class="o">&gt;</span> Python 2.7.15+ <span class="o">(</span>default, Nov 27 2018, 23:36:35<span class="o">)</span> 
+<span class="o">&gt;</span> Python 2.7.15+ <span class="o">(</span>default, Nov 27 2018, 23:36:35<span class="o">)</span>
 <span class="o">&gt;</span> <span class="o">[</span>GCC 7.3.0] on linux2
 <span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
 <span class="o">&gt;</span> <span class="o">&gt;&gt;&gt;</span>
 <span class="o">&gt;</span> <span class="o">(</span>...<span class="o">)</span>
 <span class="nv">$ </span>python3
-<span class="o">&gt;</span> Python 3.6.8 <span class="o">(</span>default, Jan 14 2019, 11:02:34<span class="o">)</span> 
+<span class="o">&gt;</span> Python 3.6.8 <span class="o">(</span>default, Jan 14 2019, 11:02:34<span class="o">)</span>
 <span class="o">&gt;</span> <span class="o">[</span>GCC 8.0.1 20180414 <span class="o">(</span>experimental<span class="o">)</span> <span class="o">[</span>trunk revision 259383]] on linux
 <span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.
 <span class="o">&gt;</span> <span class="o">&gt;&gt;&gt;</span>
 <span class="o">&gt;</span> <span class="o">(</span>...<span class="o">)</span>
 <span class="nv">$ </span>python3.5
-<span class="o">&gt;</span> Python 3.5.7 <span class="o">(</span>default, Jun 21 2019, 17:36:06<span class="o">)</span> 
+<span class="o">&gt;</span> Python 3.5.7 <span class="o">(</span>default, Jun 21 2019, 17:36:06<span class="o">)</span>
 <span class="o">&gt;</span> <span class="o">[</span>GCC 7.4.0] on linux
 <span class="o">&gt;</span> Type <span class="s2">"help"</span>, <span class="s2">"copyright"</span>, <span class="s2">"credits"</span> or <span class="s2">"license"</span> <span class="k">for </span>more information.&gt;
 <span class="o">&gt;</span> <span class="o">&gt;&gt;&gt;</span>
@@ -288,7 +290,7 @@ sendo o comandos <code class="language-plaintext highlighter-rouge">python3.6</c
 <p>Para mais detalhes, documentações e exemplos consulte o repositório oficial da ferramenta: <a href="https://github.com/pyenv/pyenv">https://github.com/pyenv/pyenv</a></p>
 
 <blockquote>
-  <p><strong>Para Ler na sequência:</strong> <a href="/blog/virtualenvwarpper-pyenv">Combinando o virtualenvwarpper com o pyenv </a></p>
+  <p><strong>Para Ler na sequência:</strong> <a href="/blog/virtualenvwarpper-pyenv">Combinando o virtualenvwarpper com o pyenv </a>.</p>
 </blockquote>
 
 

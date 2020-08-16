@@ -7,7 +7,7 @@ description: Como configurar e utilizar o virtualenvwarpper junto com pyenv para
 date: 2020-01-10
 ---
 
-# virtualenvwarpper e pyenv
+## virtualenvwarpper e pyenv
 
 O virtualenvwarpper é um plugin que que cria alguns a facilitadores e atalhos para utilizar ambientes virtuais com o python. Mais detalhes na documentação oficial: <https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html>.
 
@@ -32,18 +32,19 @@ pip3 install virtualenvwrapper
 Instalando o _pyenv-virtualenvwrapper_:
 
 ```bash
-#$(pyenv root) é o a variável do pyenv que indica onde o mesmo está instalado. 
+#$(pyenv root) é o a variável do pyenv que indica onde o mesmo está instalado.
 git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
 ```
 
 on :
+
 ```bash
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-É necessário modifcar o arquivo de configuração de seu interpretador de comandas (.bashrc para o bash ou .zshrc para zsh/ohmyzsh) e adicionar algumas linhas antes e depois as configurações do pyenv
+É necessário modificar o arquivo de configuração de seu interpretador de comandas (.bashrc para o bash ou .zshrc para zsh/ohmyzsh) e adicionar algumas linhas antes e depois as configurações do pyenv
 
 Adicionar antes:
 
@@ -90,7 +91,7 @@ $ pyenv global
 > 3.7.4
 >
 $ pyenv global miniconda3-latest
-$ (miniconda3-latest) 
+$ (miniconda3-latest)
 $ python
 > Python 3.7.4 (default, Aug 13 2019, 15:17:50)
 > [Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
@@ -110,7 +111,7 @@ $ python
 > [Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
 > Type "help", "copyright", "credits" or "license" for more information.
 > >>> exit()
-> (test_conda) 
+> (test_conda)
 $ deactivate
 >
 $ python
@@ -118,7 +119,7 @@ $ python
 > This version is included in macOS for compatibility with legacy software.
 > Future versions of macOS will not include Python 2.7.
 > Instead, it is recommended that you transition to using 'python3' from within Terminal.
-> 
+>
 > Python 2.7.16 (default, Dec 13 2019, 18:00:32)
 > [GCC 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.32.4) (-macos10.15-objc-s on darwin
 > Type "help", "copyright", "credits" or "license" for more information.
@@ -133,20 +134,20 @@ $ mkvirtualenv test_2.7
 > virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/preactivate
 > virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/postactivate
 > virtualenvwrapper.user_scripts creating /Users/gabriel.bellon/.virtualenvs/test_2.7/bin/get_env_details
-> (test_2.7) 
+> (test_2.7)
 > $ python
 > WARNING: Python 2.7 is not recommended.
 > This version is included in macOS for compatibility with legacy software.
 > Future versions of macOS will not include Python 2.7.
 > Instead, it is recommended that you transition to using 'python3' from within Terminal.
-> 
+>
 > Python 2.7.16 (default, Dec 13 2019, 18:00:32)
 > [GCC 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.32.4) (-macos10.15-objc-s on darwin
 > Type "help", "copyright", "credits" or "license" for more information.
 > >>> exit()
-> (test_2.7) 
+> (test_2.7)
 $ deactivate
-> 
+>
 $ pyenv global
 > system
 > 3.7.4
