@@ -1,9 +1,35 @@
-- title: Student, Unicamp
-  from: 2005
-  to: 2010
-  description: IT Stuffs
-
 - title: Data Science, Conta Azul, SC-BR
   from: 2018
   to: present
-  description: Do things
+  description: Responsible for creating complex consolidation analysis to help making decision in all teams of Conta Azul, using data intelligence and creation prediction and classification algorithms for the area of operation of sales and success (retention, churn and revenue) to internal use and for the area of product to complement and integrate Conta Azul solutions.
+
+- title: Student, FIAP, SP-BR
+  from: 2017
+  to: 2017
+  description: Big Data with Hadoop and Spark Environment, Data Science
+
+- title: Business Intelligence Analyst, HBSIS, SP-BR
+  from: 2017
+  to: 2017
+  description: Responsible for the maintenance and evolution of the BI module that is part of HBSIS logistics solutions. Direct support to the company's business area to serve customers to partners focusing on the logistics control area, with the majority of customers in the food area (BRF, AMBEV, Kibon, DMuller);
+
+- title: Business Intelligence Analyst, MUTANT BR, SP-BR
+  from: 2016
+  to: 2017
+  description: Responsible for the maintenance and evolution of the BI module that is part of Mutant's Workforce (WFM) solution. Direct support to the business area of the company to serve customers and partners in the customer service branch (Call Center) of the most diverse sectors such as retail (Carrefour), entertainment (Sky) and banking (CSF).
+
+- title: Business Intelligence Analyst, Movile, SP-BR
+  from: 2014
+  to: 2016
+  description: Responsible for the assistance to internal and external customers for modeling, construction and maintenance analysis of the requirements for the creation of exploratory indicators (KPI's) and global metrics. Direct support the company's business area for customers and partners in the telecommunications (Vivo, Claro, Tim, Oi), retai (Natura) and banking (Santander and Bradesco) segments;
+
+- title: Student, People Computação, SP-BR
+  from: 2012
+  to: 2013
+  description: MCTS SQL Server 2008, Data Modeling/Warehousing and Database
+
+- title: Student, Unicamp, SP-BR
+  from: 2005
+  to: 2010
+  description: Informatics Technologist
+
