@@ -66,4 +66,4 @@ exclude:
   - Makefile
   - "*.log"
   - favicon_io
-  - [vendor]
+  - vendor
