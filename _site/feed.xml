@@ -370,7 +370,7 @@ sendo o comandos &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
   &lt;p&gt;A versão inicial (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;system&lt;/code&gt;) resolve os comandos &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python&lt;/code&gt;e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3&lt;/code&gt;, sendo que o comando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3.5&lt;/code&gt; é resolvido pela versão também definida como global (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.5.7&lt;/code&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;**Portanto a ordem de versões para `pyenv global v1 &lt;v2..vn&gt; será a ordem que os comandas serão interpretados, fazendo com que possamos ter várias versões de python simultâneas e sem gerar concorrência.**&lt;/v2..vn&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Portanto a ordem de versões para &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyenv global v1 &amp;lt;v2..vn&amp;gt;&lt;/code&gt; será a ordem que os comandas serão interpretados, fazendo com que possamos ter várias versões de python simultâneas e sem gerar concorrência.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Para mais detalhes, documentações e exemplos consulte o repositório oficial da ferramenta: &lt;a href=&quot;https://github.com/pyenv/pyenv&quot;&gt;https://github.com/pyenv/pyenv&lt;/a&gt;&lt;/p&gt;
 
