@@ -1,11 +1,15 @@
 - name: Python
   percentage: 70
-  color: danger
+  color: success
 
 - name: SQL
   percentage: 100
-  color:
+  color: info
 
 - name: Bash
-  percentage: 30
+  percentage: 50
+  color: danger
+
+- name: C#
+  percentage: 20
   color: dark

@@ -1,7 +1,15 @@
 - name: Data Clean
-  percentage: 80
+  percentage: 90
+  color: dark
+
+- name: Data Analysis
+  percentage: 90
+  color: success
+
+- name: ETL
+  percentage: 95
   color: info
 
-- name: Algorithm
-  percentage: 100
-  color: success
+- name: Algorithms
+  percentage: 80
+  color: warning
