@@ -19,7 +19,7 @@ sections:
   label: Projects
   create: all
   match: "**/*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: _presentations
   label: Presentations

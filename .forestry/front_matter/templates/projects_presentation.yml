@@ -1,0 +1,19 @@
+---
+label: Projects_Presentation
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: image
+  label: image
+- type: text
+  name: description
+  label: description
+- type: textarea
+  name: external_url
+  label: external_url
