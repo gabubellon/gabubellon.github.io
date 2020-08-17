@@ -8,9 +8,6 @@ fields:
 - type: list
   name: tags
   label: tags
-- type: file
-  name: image
-  label: image
 - type: text
   name: description
   label: description
