@@ -8,6 +8,11 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: image
+  type: text
+  config:
+    required: false
+  label: image
 - type: text
   name: description
   label: description
