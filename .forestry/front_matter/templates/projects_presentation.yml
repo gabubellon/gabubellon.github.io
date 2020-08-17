@@ -19,3 +19,5 @@ fields:
 - type: textarea
   name: external_url
   label: external_url
+pages:
+- _projects/1-loucuradevaneia.md
