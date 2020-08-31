@@ -9,6 +9,5 @@ configs:
 - name: secondary
 - name: primary
 title: color.yml
-published: false
 
 ---
