@@ -2,23 +2,19 @@
 label: colors_and_styles
 hide_body: true
 fields:
-- type: field_group_list
-  name: colors_and_styles
-  fields:
-  - name: colors
-    type: list
-    config:
-      use_select: false
-      min: 
-      max: 
-      source:
-        type: simple
-    label: colors
-  - name: styles
-    type: list
-    config:
-      use_select: false
-      min: 
-      max: 
-    label: styles
-  label: colors_and_styles
+- name: colors
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: colors
+- name: styles
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: styles
+pages:
+- _data/colors_and_styles.yml
