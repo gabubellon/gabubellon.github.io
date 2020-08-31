@@ -8,6 +8,5 @@ configs:
 - name: success
 - name: secondary
 - name: primary
-published: false
 
 ---
