@@ -1,12 +1,13 @@
 ---
-title: 'Apontar um Fork para a Branch Principal do Repo Original '
+title: 'Apontar um fork para a branch principal do repo original '
 tags:
 - tips&tricks
 - github
 - git
 style: green
 color: ''
-description: Apontar a branch principal de um fork para a branch principal da origem
+description: Apontar a branch principal de um fork para a branch principal do repo
+  de origem
 date: 2020-08-31 00:00:00 -0300
 
 ---
