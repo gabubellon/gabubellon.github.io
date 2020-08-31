@@ -1,6 +1,6 @@
 ---
 configs:
-- name: primayr
+- name: primary
 published: false
 
 ---
