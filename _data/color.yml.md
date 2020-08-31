@@ -8,5 +8,7 @@ configs:
 - name: success
 - name: secondary
 - name: primary
+title: color.yml
+published: false
 
 ---
