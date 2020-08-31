@@ -5,7 +5,7 @@ tags:
 - github
 - git
 style: fill
-color: danger
+color: info
 description: Apontar a branch principal de um fork para a branch principal do repo
   de origem
 date: 2020-08-31T00:00:00.000-03:00
