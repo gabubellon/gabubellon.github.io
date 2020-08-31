@@ -12,8 +12,17 @@ fields:
 - type: text
   name: style
   label: style
-- type: text
-  name: color
+- name: color
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: _data/colors_and_styles.yml
+      path: colors
   label: color
 - type: text
   name: description

@@ -2,3 +2,15 @@
 colors_and_styles:
 - colors: []
   styles: []
+colors:
+- primary
+- secondary
+- success
+- danger
+- warning
+- info
+- light
+- dark
+styles:
+- border
+- fill
