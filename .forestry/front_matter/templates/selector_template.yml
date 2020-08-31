@@ -22,5 +22,3 @@ fields:
       max: 
     label: styles
   label: color_and_styles
-pages:
-- _data/color_and_styles.yml
