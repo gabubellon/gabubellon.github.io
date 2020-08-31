@@ -1,7 +1,3 @@
----
-colors_and_styles:
-- colors: []
-  styles: []
 colors:
 - primary
 - secondary
