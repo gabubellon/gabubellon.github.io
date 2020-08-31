@@ -14,14 +14,16 @@ tagsx: []
 ---
 # Fork
 
-Uma pequena dica quando trabalhar com forks, apontar a sua branch principal para a branch principal do repositório original.
+Uma pequena dica para quando trabalhar com forks é apontar a sua branch principal (ou qualquer outra) para a branch principal do repositório original.
 
-Isso pode ajudar a seu fork a ter sempre a versão atualizada do repositório original e facilitar a atualizações do seu fork
+Isso ajuda a manter seu fork a ter sempre a versão atualizada do repositório original e facilitar a atualizações do seu fork.
 
 > git remote -v
-> git remote add upstream git@github.com:<origin_account>/<origin_account>.gitgit
-> remote -v
-> git fetch upstreamgit checkout -b tmp
+> git remote add upstream git@github.com:<origin_account>/<origin_account>.git
+>
+> git remote -v git fetch upstream
+>
+> git checkout -b tmp
 > git branch -D <main_branch>
 > git checkout upstream/<main_origin_account> -b <main_branch_my_account>
 > git branch -D tmp
