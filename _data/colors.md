@@ -1,5 +1,0 @@
----
-color: primary
-published: false
-
----
