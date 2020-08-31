@@ -20,6 +20,10 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: xpto
+  type: tag_list
+  default: []
+  label: xpto
 pages:
 - _posts/2020-08-16-testando-do-forestry.io.md
 - _posts/apontar-branch-main-de-um-or.md
