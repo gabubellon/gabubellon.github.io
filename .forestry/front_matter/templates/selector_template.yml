@@ -3,10 +3,9 @@ label: selector_template
 hide_body: true
 fields:
 - type: field_group_list
-  name: Other skills
-  label: Other skills
+  name: color_and_styles
   fields:
-  - name: values
+  - name: colors
     type: list
     config:
       use_select: false
@@ -14,6 +13,14 @@ fields:
       max: 
       source:
         type: simple
-    label: values
+    label: colors
+  - name: styles
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: styles
+  label: color_and_styles
 pages:
 - _data/color_and_styles.yml
