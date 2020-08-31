@@ -16,10 +16,10 @@ fields:
       required: false
       options: []
       source:
-        type: pages
+        type: documents
         section: projects
-        file: 
-        path: 
+        file: _projects/1-loucuradevaneia.md
+        path: tags
     label: xpto
   description: A list of configs to use on post
 pages:
