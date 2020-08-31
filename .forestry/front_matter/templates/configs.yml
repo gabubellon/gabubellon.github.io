@@ -9,6 +9,18 @@ fields:
   - type: text
     name: name
     label: name
+  - name: xpto
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: projects
+        file: 
+        path: 
+    label: xpto
   description: A list of configs to use on post
 pages:
 - _data/color.yml.md
