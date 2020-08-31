@@ -22,5 +22,3 @@ fields:
         path: tags
     label: xpto
   description: A list of configs to use on post
-pages:
-- _data/style.yml.md
