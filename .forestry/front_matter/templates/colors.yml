@@ -8,3 +8,5 @@ fields:
     required: false
   label: Color
   description: Color to use on Post
+pages:
+- _data/colors.md
