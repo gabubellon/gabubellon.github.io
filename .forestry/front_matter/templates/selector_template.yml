@@ -1,9 +1,9 @@
 ---
-label: selector_template
+label: colors_and_styles
 hide_body: true
 fields:
 - type: field_group_list
-  name: color_and_styles
+  name: colors_and_styles
   fields:
   - name: colors
     type: list
@@ -21,4 +21,4 @@ fields:
       min: 
       max: 
     label: styles
-  label: color_and_styles
+  label: colors_and_styles
