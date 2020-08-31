@@ -1,4 +1,10 @@
 ---
 label: Colors
 hide_body: true
-fields: []
+fields:
+- name: color
+  type: text
+  config:
+    required: false
+  label: Color
+  description: Color to use on Post
