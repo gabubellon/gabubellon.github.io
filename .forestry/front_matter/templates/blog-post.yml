@@ -5,9 +5,6 @@ fields:
 - type: text
   name: title
   label: title
-- type: list
-  name: tagsx
-  label: tagsx
 - name: tags
   type: tag_list
   default: []
