@@ -1,0 +1,17 @@
+---
+label: configs
+hide_body: true
+fields:
+- type: field_group_list
+  name: Other skills
+  label: Other skills
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: number
+    name: percentage
+    label: percentage
+  - type: text
+    name: color
+    label: color
