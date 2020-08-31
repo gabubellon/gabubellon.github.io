@@ -15,3 +15,5 @@ fields:
       source:
         type: simple
     label: values
+pages:
+- _data/color_and_styles.yml
