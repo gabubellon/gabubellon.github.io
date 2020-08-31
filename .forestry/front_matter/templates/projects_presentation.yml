@@ -5,9 +5,10 @@ fields:
 - type: text
   name: name
   label: name
-- type: list
-  name: tags
-  label: tags
+- name: tag
+  type: tag_list
+  default: []
+  label: tag
 - name: image
   type: text
   config:
