@@ -10,3 +10,5 @@ fields:
     name: name
     label: name
   description: A list of configs to use on post
+pages:
+- _data/color.md
