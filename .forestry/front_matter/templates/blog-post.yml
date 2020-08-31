@@ -9,8 +9,17 @@ fields:
   type: tag_list
   default: []
   label: tags
-- type: text
-  name: style
+- name: style
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: _data/colors_and_styles.yml
+      path: styles
   label: style
 - name: color
   type: select
