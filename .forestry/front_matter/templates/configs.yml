@@ -12,3 +12,4 @@ fields:
   description: A list of configs to use on post
 pages:
 - _data/color.yml.md
+- _data/style.yml.md
