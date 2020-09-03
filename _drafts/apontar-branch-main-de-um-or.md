@@ -11,11 +11,13 @@ date: 2020-08-31T00:00:00.000-03:00
 tagsx: []
 
 ---
-# Fork
+## Fork sempre atualizado !
 
 Uma pequena dica para quando trabalhar com forks de repositórios e apontar **branch principal do seu fork** (ou qualquer outra) para a **branch principal do repositório original.**
 
 Isso ajuda a manter seu código no fork sempre na versão mais atualizada do repositório original, permitindo que suas customizações e merges sejam mais práticos
+
+### Configurando os remotes
 
 Após realizar o [fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) de um repositório e o [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) para sua máquina local, você pode executar em um terminal o comando `git remote -v`, o mesmo ira retornar para quais remotes o repositório está apontando.
 
@@ -44,6 +46,8 @@ Executamos um `fetch` para trazer todas as branchs de todos os remotes para noss
 ```bash
 git fetch upstream
 ```
+
+### Branchs atualizadas !
 
 Agora podemos apontar a branch principal do nosso fork para o repositório original. Primeiro criamos uma branch temporária e movemos para ela:
 
