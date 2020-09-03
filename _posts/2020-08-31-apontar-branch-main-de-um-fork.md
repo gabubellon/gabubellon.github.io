@@ -79,6 +79,6 @@ Ou se preferir apenas criar uma nova branch no seu fork, mantendo a sua principa
 git checkout upstream/<main_origin_repo> -b <new_branch_name>
 ```
 
-Com isso agora podemos sempre executar um `git pull <new_branch_name> ou <new_branch_name>` e teremos em nosso fork o código do repositório original atualizado.
+Com isso agora podemos sempre executar um `git pull <new_branch_name> ou <main_branch_fork>` e teremos em nosso fork o código do repositório original atualizado.
 
 Para mais detalhes a [documentação](https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork) do GitHub pode ajudar.
