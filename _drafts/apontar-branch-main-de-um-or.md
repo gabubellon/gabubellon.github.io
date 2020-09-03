@@ -5,7 +5,7 @@ tags:
 - github
 - git
 style: fill
-color: light
+color: success
 description: Como manter seu fork sempre com um brach atualizada com o repo original.
 date: 2020-08-31T00:00:00.000-03:00
 tagsx: []
