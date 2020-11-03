@@ -8,31 +8,30 @@ date: 2020-11-03 01:00:00 -0200
 
 ---
 Senti falta dos abraços e aperto de mão das **PESSOAS**
-
            que não puder ter ou dar...  
 
-Senti falta de rever PESSOAS  
+Senti falta de rever  **PESSOAS**  
 que a um ano eu não via....  
 mas como se apenas tivesse semana passado
 
-Senti falta de conhecer PESSOAS  
+Senti falta de conhecer  **PESSOAS**  
 que eu  já conhecia...  
-Senti falta de reconhecer PESSOAS  
+Senti falta de reconhecer  **PESSOAS**  
 que eu ainda não conhecia...
 
-Mas achei nas PESSOAS  
+Mas achei nas  **PESSOAS**  
 a energia e felicidade !  
-Mas eu achei mas PESSOAS  
-A COMUNIDADE !
+Mas eu achei mas  **PESSOAS**  
+A **COMUNIDADE** !
 
 Mesmo longe,  
-estamos PERTO !
+estamos **PERTO** !
 
 Mesmo separados,  
-estamos JUNTOS !
+estamos **JUNTOS** !
 
 Mesmos não nos vendo,  
-estamos nos OLHANDO !
+estamos nos **OLHANDO** !
 
 E a tecnologia não nos faz **PESSOAS**...
 
