@@ -16,35 +16,34 @@ Senti falta de rever  **PESSOAS**
 <br>*mas como se apenas tivesse uma semana passado*
 <br>
 <br>
-Senti falta de conhecer  **PESSOAS**  
-<br>`que eu  já conhecia`...  
-Senti falta de reconhecer  **PESSOAS**  
+Senti falta de conhecer  **PESSOAS**
+<br>`que eu  já conhecia`...
+Senti falta de reconhecer  **PESSOAS**
 <br>`que eu ainda não conhecia`...
 <br>
 <br>
-Mas achei nas  **PESSOAS**  
-a energia e felicidade ! 
+Mas achei nas  **PESSOAS**
+<br>`a energia e felicidade !`
 <br>
-Mas eu achei mas  **PESSOAS**  
-A **COMUNIDADE** !
-
-Mesmo longe,  
+Mas eu achei mas  **PESSOAS**
+<br>`A **COMUNIDADE** !`
+<br>
+<br>
+Mesmo longe,
 <br>`estamos **PERTO** !`
-
-Mesmo separados,  
-estamos **JUNTOS** !
-
+Mesmo separados,
+<br>`estamos **JUNTOS** !`
 Mesmos não nos vendo,  
-estamos nos **OLHANDO** !
-
+<br>`estamos nos **OLHANDO** !`
+<br>
+<br>
 E a tecnologia não nos faz **PESSOAS**...
-
 A tecnologia ajuda a nos manter **PESSOAS** !
-
-A um tempo eu aprendi que  
-**PESSOAS > Tecnologia**....
-
-Hoje eu descobri que  
-**PESSOAS + Tecnologia > Pandemia**
+<br>
+<br>
+A um tempo eu aprendi que
+<br>**PESSOAS > Tecnologia**....
+Hoje eu descobri que
+<br>**PESSOAS + Tecnologia > Pandemia**
 
 Obrigado Python Brasil !!
