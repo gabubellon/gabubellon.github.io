@@ -7,25 +7,25 @@ description: Python Brasil 2020 em poesia :D
 date: 2020-11-03 01:00:00 -0200
 
 ---
-Senti falta dos abraços e aperto de mão das __*PESSOAS*__
+Senti falta dos abraços e aperto de mão das **_PESSOAS_**
 <br>`que não puder ter ou dar`...
 <br>
 <br>
-Senti falta de rever  __*PESSOAS*__
+Senti falta de rever  **_PESSOAS_**
 <br>`que a um ano eu não via`....
 <br>_mas como se apenas tivesse uma semana passado._
 <br>
 <br>
-Senti falta de conhecer  __*PESSOAS*__
+<br>Senti falta de conhecer  **_PESSOAS_**
 <br>`que eu já conhecia`...
-Senti falta de reconhecer  __*PESSOAS*__
+Senti falta de reconhecer  **_PESSOAS_**
 <br>`que eu ainda não conhecia`...
 <br>
 <br>
-Mas achei nas  __*PESSOAS*__
+Mas achei nas  **_PESSOAS_**
 <br>`a energia e felicidade !`
 <br>
-Mas eu achei mas  __*PESSOAS*__
+Mas eu achei mas  **_PESSOAS_**
 <br>**`A COMUNIDADE !`**
 <br>
 <br>
@@ -37,12 +37,12 @@ Mesmo longe,
 <br>**`estamos nos OLHANDO !`**
 <br>
 <br>
-E a tecnologia não nos faz __*PESSOAS*__...
+E a tecnologia não nos faz **_PESSOAS_**...
 <br>**`A tecnologia ajuda a nos manter PESSOAS !`**
 <br>
 <br>
 A um tempo eu aprendi que
-<br>__*PESSOAS > Tecnologia*__...
+<br>**_PESSOAS > Tecnologia_**...
 <br>
 <br>Hoje eu descobri que
 <br>**`PESSOAS + Tecnologia > Pandemia !!`**
