@@ -11,7 +11,7 @@ Senti falta dos abraços e aperto de mão das **PESSOAS**
 <br>`que não puder ter ou dar`... 
 <br>
 <br>
-Senti falta de rever  **PESSOAS**  
+Senti falta de rever  **PESSOAS**
 <br>`que a um ano eu não via`....  
 <br>*mas como se apenas tivesse uma semana passado*
 <br>
