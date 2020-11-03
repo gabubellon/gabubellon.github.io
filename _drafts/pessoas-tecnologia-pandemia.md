@@ -8,16 +8,16 @@ date: 2020-11-03 01:00:00 -0200
 
 ---
 Senti falta dos abraços e aperto de mão das **PESSOAS**
-<br>`que não puder ter ou dar`... 
+<br>`que não puder ter ou dar`...
 <br>
 <br>
 Senti falta de rever  **PESSOAS**
 <br>`que a um ano eu não via`....
-<br>*mas como se apenas tivesse uma semana passado.*
+<br>_mas como se apenas tivesse uma semana passado._
 <br>
 <br>
 Senti falta de conhecer  **PESSOAS**
-<br>`que eu  já conhecia`...
+<br>`que eu já conhecia`...
 Senti falta de reconhecer  **PESSOAS**
 <br>`que eu ainda não conhecia`...
 <br>
@@ -45,6 +45,4 @@ A um tempo eu aprendi que
 <br>**PESSOAS > Tecnologia**...
 <br>
 <br>Hoje eu descobri que
-<br>**PESSOAS + Tecnologia > Pandemia**
-
-Obrigado Python Brasil !!
+<br>**PESSOAS + Tecnologia > Pandemia !!**
