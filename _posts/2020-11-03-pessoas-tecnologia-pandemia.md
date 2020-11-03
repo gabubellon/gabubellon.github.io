@@ -18,7 +18,7 @@ Senti falta de rever  **_PESSOAS_**
 <br>
 <br>Senti falta de conhecer  **_PESSOAS_**
 <br>`que eu já conhecia`...
-Senti falta de reconhecer  **_PESSOAS_**
+<br>Senti falta de reconhecer  **_PESSOAS_**
 <br>`que eu ainda não conhecia`...
 <br>
 <br>
