@@ -38,7 +38,7 @@ Mesmo longe,
 <br>
 <br>
 E a tecnologia não nos faz **PESSOAS**...
-<br>**`A tecnologia ajuda a nos manter PESSOAS !**`
+<br>**`A tecnologia ajuda a nos manter PESSOAS !`**
 <br>
 <br>
 A um tempo eu aprendi que
