@@ -45,6 +45,6 @@ A um tempo eu aprendi que
 <br>**PESSOAS > Tecnologia**...
 <br>
 <br>Hoje eu descobri que
-<br>**PESSOAS + Tecnologia > Pandemia**
+<br>       **PESSOAS + Tecnologia > Pandemia**
 
 Obrigado Python Brasil !!
