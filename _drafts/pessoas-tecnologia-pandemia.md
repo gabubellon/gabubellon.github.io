@@ -7,7 +7,7 @@ description: Python Brasil 2020 em poesia :D
 date: 2020-11-03 01:00:00 -0200
 
 ---
-Senti falta dos abraços e aperto de mão das PESSOAS  
+Senti falta dos abraços e aperto de mão das PESSOAS
            que não puder ter ou dar...  
 Senti falta de rever PESSOAS  
            que a um ano eu não via....  
