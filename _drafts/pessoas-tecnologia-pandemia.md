@@ -31,9 +31,9 @@ Mas eu achei mas  **PESSOAS**
 <br>
 Mesmo longe,
 <br>**`estamos PERTO !`**
-Mesmo separados,
+<br>Mesmo separados,
 <br>**`estamos JUNTOS !`**
-Mesmos não nos vendo,  
+<br>Mesmos não nos vendo,  
 <br>**`estamos nos OLHANDO !`**
 <br>
 <br>
