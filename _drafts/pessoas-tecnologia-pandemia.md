@@ -43,7 +43,7 @@ E a tecnologia não nos faz **PESSOAS**...
 <br>
 A um tempo eu aprendi que
 <br>**PESSOAS > Tecnologia**....
-Hoje eu descobri que
+<br>Hoje eu descobri que
 <br>**PESSOAS + Tecnologia > Pandemia**
 
 Obrigado Python Brasil !!
