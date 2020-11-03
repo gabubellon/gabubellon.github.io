@@ -26,7 +26,7 @@ Mas achei nas  **PESSOAS**
 <br>`a energia e felicidade !`
 <br>
 Mas eu achei mas  **PESSOAS**
-<br>`A **COMUNIDADE** !`
+<br>**`A **COMUNIDADE !`**
 <br>
 <br>
 Mesmo longe,
