@@ -12,12 +12,12 @@ Senti falta dos abraços e aperto de mão das **PESSOAS**
 
 Senti falta de rever  **PESSOAS**  
  <br>`que a um ano eu não via`....  
-mas como se apenas tivesse semana passado
+ <br>*mas como se apenas tivesse uma semana passado*
 
 Senti falta de conhecer  **PESSOAS**  
-que eu  já conhecia...  
+<br>`que eu  já conhecia`...  
 Senti falta de reconhecer  **PESSOAS**  
-que eu ainda não conhecia...
+<br>`que eu ainda não conhecia`...
 
 Mas achei nas  **PESSOAS**  
 a energia e felicidade !  
@@ -25,7 +25,7 @@ Mas eu achei mas  **PESSOAS**
 A **COMUNIDADE** !
 
 Mesmo longe,  
-estamos **PERTO** !
+<br>`estamos **PERTO** !`
 
 Mesmo separados,  
 estamos **JUNTOS** !
