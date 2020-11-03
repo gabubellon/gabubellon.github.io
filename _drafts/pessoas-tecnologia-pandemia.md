@@ -33,7 +33,7 @@ Mesmo longe,
 <br>**`estamos PERTO !`**
 <br>Mesmo separados,
 <br>**`estamos JUNTOS !`**
-<br>Mesmos não nos vendo,  
+<br>Mesmos não nos vendo,
 <br>**`estamos nos OLHANDO !`**
 <br>
 <br>
