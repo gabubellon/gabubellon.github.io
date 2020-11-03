@@ -12,7 +12,7 @@ Senti falta dos abraços e aperto de mão das **PESSOAS**
 <br>
 <br>
 Senti falta de rever  **PESSOAS**
-<br>`que a um ano eu não via`....  
+<br>`que a um ano eu não via`....
 <br>*mas como se apenas tivesse uma semana passado*
 <br>
 <br>
@@ -26,15 +26,15 @@ Mas achei nas  **PESSOAS**
 <br>`a energia e felicidade !`
 <br>
 Mas eu achei mas  **PESSOAS**
-<br>**`A **COMUNIDADE !`**
+<br>**`A COMUNIDADE !`**
 <br>
 <br>
 Mesmo longe,
-<br>`estamos **PERTO** !`
+<br>**`estamos PERTO !`**
 Mesmo separados,
-<br>`estamos **JUNTOS** !`
+<br>**`estamos JUNTOS !`**
 Mesmos não nos vendo,  
-<br>`estamos nos **OLHANDO** !`
+<br>**`estamos nos OLHANDO !`**
 <br>
 <br>
 E a tecnologia não nos faz **PESSOAS**...
