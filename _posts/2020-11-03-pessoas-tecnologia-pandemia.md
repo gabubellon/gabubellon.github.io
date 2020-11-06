@@ -13,7 +13,7 @@ Senti falta dos abraços e aperto de mão das **_PESSOAS_**
 <br>
 Senti falta de rever  **_PESSOAS_**
 <br>`que a um ano eu não via`....
-<br>_mas como se apenas tivesse uma semana passado._
+<br>_mas como se apenas uma semana tivesse passado._
 <br>
 <br>
 <br>Senti falta de conhecer  **_PESSOAS_**
