@@ -14,7 +14,6 @@ plugins:
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
   - pages/404.html
   - pages/index.md
 
@@ -42,8 +41,10 @@ collections:
   presentations:
       output: true
       permalink: /presentations/:name
-
-
+  wiki:
+      output: true
+      permalink: /wiki/:name
+      
 ### Defaults for collections ###
 defaults:
   - scope:
@@ -54,6 +55,11 @@ defaults:
   - scope:
       path: ""
       type: "presentations"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "wiki"
     values:
       layout: "page"
       

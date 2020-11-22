@@ -1,0 +1,99 @@
+<!-- Collect tags from all posts -->
+{%- assign tags = blank -%}
+
+{%- for post in site.posts -%}
+  {%- assign post_tags = post.tags | join:'|' | append:'|' -%}
+  {%- if post_tags != '|' -%}
+    {%- assign tags = tags | append:post_tags -%}
+  {%- endif -%}
+{%- endfor -%}
+
+
+{%- for presentation in site.presentations -%}
+  {%- assign presentation_tags = presentation.tags | join:'|' | append:'|' -%}
+  {%- if presentation_tags != '|' -%}
+    {%- assign tags = tags | append:presentation_tags -%}
+  {%- endif -%}
+{%- endfor -%}
+
+
+{%- for presentation in site.presentations -%}
+  {%- assign presentation_tags = presentation.tags | join:'|' | append:'|' -%}
+  {%- if presentation_tags != '|' -%}
+    {%- assign tags = tags | append:presentation_tags -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- for project in site.projects -%}
+  {%- assign project_tags = project.tags | join:'|' | append:'|' -%}
+  {%- if project_tags != '|' -%}
+    {%- assign tags = tags | append:project_tags -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- for wiki in site.wiki -%}
+  {%- assign wiki_tags = wiki.tags | join:'|' | append:'|' -%}
+  {%- if wiki_tags != '|' -%}
+    {%- assign tags = tags | append:wiki_tags -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign tags = tags | split:'|' | uniq | sort -%}
+
+{% for tag in tags %}
+<div class="py-3">
+  <h4 id="{{ tag | slugify }}">{{ tag }}</h4>
+  <ol>
+  {% for post in site.posts %}
+    {%- if post.tags contains tag -%}
+      {%- if post.external_url -%}
+        {%- assign url = post.external_url -%}
+      {%- else -%}
+        {%- assign url = post.url | relative_url -%}
+      {%- endif -%}
+    <a href="{{ url }}"><li>{{ post.title }}</li></a>
+    <small class="text-muted"> - {{ post.date | date_to_long_string }}</small>
+    <br/>
+    {%- endif -%}
+  {% endfor %}
+  
+  {% for presentation in site.presentations %}
+    {%- if presentation.tags contains tag -%}
+      {%- if presentation.external_url -%}
+        {%- assign url = presentation.external_url -%}
+      {%- else -%}
+        {%- assign url = presentation.url | relative_url -%}
+      {%- endif -%}
+    <a href="{{ url }}"><li>{{ presentation.name }}</li></a>
+    <br/>
+    {%- endif -%}
+  {% endfor %}
+
+  {% for project in site.projects %}
+    {%- if project.tags contains tag -%}
+      {%- if project.external_url -%}
+        {%- assign url = project.external_url -%}
+      {%- else -%}
+        {%- assign url = project.url | relative_url -%}
+      {%- endif -%}
+    <a href="{{ url }}"><li>{{ project.name }}</li></a>
+    <br/>
+    {%- endif -%}
+  {% endfor %}
+
+  {% for wiki in site.wiki %}
+    {%- if wiki.tags contains tag -%}
+      {%- if post.external_url -%}
+        {%- assign url = wiki.external_url -%}
+      {%- else -%}
+        {%- assign url = wiki.url | relative_url -%}
+      {%- endif -%}
+    <a href="{{ url }}"><li>wiki/{{ wiki.name }}</li></a>
+    <br/>
+    {%- endif -%}
+  {% endfor %}
+
+  </ol>
+</div>
+<hr class="bg-light">
+{% endfor %}

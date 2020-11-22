@@ -25,6 +25,11 @@ sections:
   label: Presentations
   create: all
   match: "**/*"
+- type: directory
+  path: _wiki
+  label: Wiki
+  create: all
+  match: "**/*"
 - type: heading
   label: Stuffs
 - type: directory
