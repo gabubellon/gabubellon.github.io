@@ -1,13 +1,16 @@
 # gabubellon.github.io
-My Personal Profile
+This is my personal site
 
-Build by https://jekyllrb.com/
+## Using
 
-Using theme https://github.com/YoussefRaafatNasry/portfolYOU
+Build: https://jekyllrb.com/
+Theme: https://github.com/YoussefRaafatNasry/portfolYOU
+## Run
 
-install jekyll bundler https://jekyllrb.com/docs/
-clone project
-run bundle install
-run bundle exec jekyll serve
+- install jekyll bundler https://jekyllrb.com/docs/
+- clone project
 
-See Makefile to more commands
+- run `bundle install`
+- run `bundle exec jekyll serve`
+
+- See Makefile to more commands
