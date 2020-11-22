@@ -1,5 +1,5 @@
 ---
-name: 9º Meetup de Python
+name: 9º Meetup de Python Joinville
 tags: [python, community]
 image: https://secure.meetupstatic.com/s/img/5455565085016210254/logo/svg/logo--script.svg
 description: Presentation on 9º Meetup de Python Joinville

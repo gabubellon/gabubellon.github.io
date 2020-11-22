@@ -7,6 +7,162 @@
     <atom:link href="http://gabubellon.me/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Pessoas + Tecnologia &gt; Pandemia </title>
+        <description>&lt;p&gt;Senti falta dos abraços e aperto de mão das &lt;strong&gt;&lt;em&gt;PESSOAS&lt;/em&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;que não puder ter ou dar&lt;/code&gt;…
+&lt;br /&gt;
+&lt;br /&gt;
+Senti falta de rever  &lt;strong&gt;&lt;em&gt;PESSOAS&lt;/em&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;que a um ano eu não via&lt;/code&gt;….
+&lt;br /&gt;&lt;em&gt;mas como se apenas uma semana tivesse passado.&lt;/em&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;Senti falta de conhecer  &lt;strong&gt;&lt;em&gt;PESSOAS&lt;/em&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;que eu já conhecia&lt;/code&gt;…
+&lt;br /&gt;Senti falta de reconhecer  &lt;strong&gt;&lt;em&gt;PESSOAS&lt;/em&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;que eu ainda não conhecia&lt;/code&gt;…
+&lt;br /&gt;
+&lt;br /&gt;
+Mas achei nas  &lt;strong&gt;&lt;em&gt;PESSOAS&lt;/em&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a energia e felicidade !&lt;/code&gt;
+&lt;br /&gt;
+Mas eu achei mas  &lt;strong&gt;&lt;em&gt;PESSOAS&lt;/em&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A COMUNIDADE !&lt;/code&gt;&lt;/strong&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Mesmo longe,
+&lt;br /&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;estamos PERTO !&lt;/code&gt;&lt;/strong&gt;
+&lt;br /&gt;Mesmo separados,
+&lt;br /&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;estamos JUNTOS !&lt;/code&gt;&lt;/strong&gt;
+&lt;br /&gt;Mesmos não nos vendo,
+&lt;br /&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;estamos nos OLHANDO !&lt;/code&gt;&lt;/strong&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+E a tecnologia não nos faz &lt;strong&gt;&lt;em&gt;PESSOAS&lt;/em&gt;&lt;/strong&gt;…
+&lt;br /&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A tecnologia ajuda a nos manter PESSOAS !&lt;/code&gt;&lt;/strong&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+A um tempo eu aprendi que
+&lt;br /&gt;&lt;strong&gt;&lt;em&gt;PESSOAS &amp;gt; Tecnologia&lt;/em&gt;&lt;/strong&gt;…
+&lt;br /&gt;
+&lt;br /&gt;Hoje eu descobri que
+&lt;br /&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PESSOAS + Tecnologia &amp;gt; Pandemia !!&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        
+          <category>python</category>
+        
+          <category>poesias</category>
+        
+          <category>python brasil</category>
+        
+        <pubDate>Tue, 03 Nov 2020 00:00:00 -0300</pubDate>
+        <link>http://gabubellon.me//blog/pessoas-tecnologia-pandemia</link>
+        <guid isPermaLink="true">http://gabubellon.me//blog/pessoas-tecnologia-pandemia</guid>
+      </item>
+    
+      <item>
+        <title>Apontar uma branch de um fork para a branch principal do repo original</title>
+        <description>&lt;h2 id=&quot;fork-sempre-atualizado-&quot;&gt;Fork sempre atualizado !&lt;/h2&gt;
+
+&lt;p&gt;Uma pequena dica para quando trabalhar com forks de repositórios e apontar &lt;strong&gt;branch principal do seu fork&lt;/strong&gt; (ou qualquer outra) para a &lt;strong&gt;branch principal do repositório original.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Isso ajuda a manter seu código no fork sempre na versão mais atualizada do repositório original, permitindo que suas customizações e merges sejam mais práticos&lt;/p&gt;
+
+&lt;h3 id=&quot;configurando-os-remotes&quot;&gt;Configurando os remotes&lt;/h3&gt;
+
+&lt;p&gt;Após realizar o &lt;a href=&quot;https://docs.github.com/en/github/getting-started-with-github/fork-a-repo&quot;&gt;fork&lt;/a&gt; de um repositório e o &lt;a href=&quot;https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository&quot;&gt;clone&lt;/a&gt; para sua máquina local, você pode executar em um terminal o comando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote -v&lt;/code&gt;, o mesmo ira retornar para quais remotes o repositório está apontando.&lt;/p&gt;
+
+&lt;p&gt;Inicialmente temos apenas o remote do nosso fork:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git remote &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; origin	git@github.com:&amp;lt;your_git_account&amp;gt;/&amp;lt;repo&amp;gt;.git &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;fetch&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; origin	git@github.com:&amp;lt;your_git_account&amp;gt;/&amp;lt;repo&amp;gt;.git &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;push&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Com o comando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote add&lt;/code&gt; podemos incluir um novo remote, no caso vamos adicionar o repositório original, mas poderiamos adicionar qualquer outro fork, ou apontas para nosso fork para vários serviços git ao mesmo tempo.
+Ao executarmos a adição e na sequência um &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote -v&lt;/code&gt; agora vemos que o nosso fork tem mais de um remote configurado.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git remote add upstream git@github.com:&amp;lt;origin_account&amp;gt;/&amp;lt;repo&amp;gt;.git
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git remote &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; origin	git@github.com:&amp;lt;your_git_account&amp;gt;/&amp;lt;repo&amp;gt;.git &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;fetch&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; origin	git@github.com:&amp;lt;your_git_account&amp;gt;/&amp;lt;repo&amp;gt;.git &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;push&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; upstream	git@github.com:&amp;lt;original_git_account&amp;gt;/&amp;lt;repo&amp;gt;.git &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;fetch&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; upstream	git@github.com:&amp;lt;original_git_account&amp;gt;/&amp;lt;repo&amp;gt;.git &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;push&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Executamos um &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fetch&lt;/code&gt; para trazer todas as branchs de todos os remotes para nosso fork&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git fetch upstream
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;branchs-atualizadas-&quot;&gt;Branchs atualizadas !&lt;/h3&gt;
+
+&lt;p&gt;Agora podemos apontar a branch principal do nosso fork para o repositório original. Primeiro criamos uma branch temporária e movemos para ela:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; tmp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Na sequência apagamos a &lt;strong&gt;&lt;em&gt;branch principal do nosso fork:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; &amp;lt;main_branch_fork&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Logo após &lt;strong&gt;&lt;em&gt;criamos&lt;/em&gt;&lt;/strong&gt; novamente uma branch com o mesmo nome no nosso fork, mas apontando para a branch principal do repositório original:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout upstream/&amp;lt;main_origin_repo&amp;gt; &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; &amp;lt;main_branch_fork&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pra finalizar excluimos a branch temporária&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; tmp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ou se preferir apenas criar uma nova branch no seu fork, mantendo a sua principal, basta criar uma nova branch:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout upstream/&amp;lt;main_origin_repo&amp;gt; &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; &amp;lt;new_branch_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Com isso agora podemos sempre executar um &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git pull &amp;lt;new_branch_name&amp;gt; ou &amp;lt;main_branch_fork&amp;gt;&lt;/code&gt; e teremos em nosso fork o código do repositório original atualizado.&lt;/p&gt;
+
+&lt;p&gt;Para mais detalhes a &lt;a href=&quot;https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork&quot;&gt;documentação&lt;/a&gt; do GitHub pode ajudar.&lt;/p&gt;
+</description>
+        
+          <category>tips-tricks</category>
+        
+          <category>github</category>
+        
+          <category>git</category>
+        
+        <pubDate>Mon, 31 Aug 2020 00:00:00 -0300</pubDate>
+        <link>http://gabubellon.me//blog/apontar-branch-main-de-um-fork</link>
+        <guid isPermaLink="true">http://gabubellon.me//blog/apontar-branch-main-de-um-fork</guid>
+      </item>
+    
+      <item>
+        <title>Testando do Forestry.io</title>
+        <description>&lt;h2 id=&quot;post-pelo-forestryio-&quot;&gt;Post pelo Forestry.io !&lt;/h2&gt;
+
+&lt;p&gt;Esse é apenas um post teste para verificar se o Forestry.io está configurado corretamente&lt;/p&gt;
+
+&lt;h3 id=&quot;o-que-é-o-forestryio-&quot;&gt;O que é o Forestry.io ?&lt;/h3&gt;
+
+&lt;p&gt;Forestry.io é um criador de site estáticos que se liga a um repositório git, permitindo que se tenha uma interface de escrita online e ainda tenha um controle de versão do seu site (e podendo gerenciar ele localmente se quiser).&lt;/p&gt;
+
+&lt;p&gt;Isso ajuda a pode criar textos e posts de qualquer navegados e ainda deixar ter um site customizável pelo git .&lt;/p&gt;
+
+&lt;p&gt;Vou montar um tutoria de como configurei o meu logo mais, por enquanto isso é um teste para ver como vai ficar as informações.&lt;/p&gt;
+</description>
+        
+          <category>blog</category>
+        
+          <category>forestry.io</category>
+        
+        <pubDate>Sun, 16 Aug 2020 00:00:00 -0300</pubDate>
+        <link>http://gabubellon.me//blog/testando-do-forestry.io</link>
+        <guid isPermaLink="true">http://gabubellon.me//blog/testando-do-forestry.io</guid>
+      </item>
+    
+      <item>
         <title>Combinando o virtualenvwarpper com o pyenv</title>
         <description>&lt;h2 id=&quot;virtualenvwarpper-e-pyenv&quot;&gt;virtualenvwarpper e pyenv&lt;/h2&gt;
 

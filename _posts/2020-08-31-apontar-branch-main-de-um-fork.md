@@ -1,7 +1,7 @@
 ---
 title: Apontar uma branch de um fork para a branch principal do repo original
 tags:
-- tips&tricks
+- tips-tricks
 - github
 - git
 style: fill

@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [python, poesias, python brasil]
 style: border
 color: light
 title: 'Pessoas + Tecnologia > Pandemia '

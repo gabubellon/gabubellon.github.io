@@ -1,9 +1,6 @@
 ---
 title: Testando do Forestry.io
-tags:
-- blog
-- online
-- forestry.io
+tags: [blog,forestry.io]
 style: fill
 color: warning
 description: Testando um post do  Forestry.io
