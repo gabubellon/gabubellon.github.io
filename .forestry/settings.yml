@@ -12,6 +12,8 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - blog-post
 - type: heading
   label: Projects an Presentations
 - type: directory
