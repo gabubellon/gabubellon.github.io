@@ -15,7 +15,7 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: _pages
+  path: pages
   label: Pages
   create: all
   match: "**/*"
