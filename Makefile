@@ -4,12 +4,12 @@ clean:
 build:
 	bundle exec jekyll build 
 
-devserver:
+local-server:
 	bundle exec jekyll serve
 
 install:
 	bundle install
 
-toprod:
+build-prod:
 	bundle exec jekyll clean
 	bundle exec jekyll build 
