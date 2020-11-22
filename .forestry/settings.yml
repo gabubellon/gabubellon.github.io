@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Pages And Post
 - type: directory
   path: _posts
   label: Posts
@@ -12,8 +14,6 @@ sections:
   new_doc_ext: ".md"
   templates:
   - blog-post
-- type: heading
-  label: Pages And Post
 - type: heading
   label: Projects an Presentations
 - type: directory
