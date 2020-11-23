@@ -1,0 +1,13 @@
+---
+label: wiki
+hide_body: false
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+- name: tags
+  type: tag_list
+  default: []
+  label: tags

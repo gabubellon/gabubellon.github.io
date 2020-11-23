@@ -15,7 +15,7 @@ sections:
   templates:
   - blog-post
 - type: heading
-  label: Projects an Presentations
+  label: Projects - Presentations - Wiki
 - type: directory
   path: _projects
   label: Projects
@@ -30,8 +30,10 @@ sections:
 - type: directory
   path: _wiki
   label: Wiki
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - wiki
 - type: heading
   label: Stuffs
 - type: directory
