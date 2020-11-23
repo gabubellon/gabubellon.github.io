@@ -1,6 +1,6 @@
 ---
 label: wiki
-hide_body: true
+hide_body: false
 fields:
 - name: name
   type: text
