@@ -3,12 +3,11 @@ name: sql
 tags:
 - sql
 - wiki
-published: false
 
 ---
 # SQL
 ---
-Retornando apenas as primeiras 10 Linhas
+Retornando apenas as primeiras 10 linhas de uma tabela:
 
 ```sql
 Select * from <schema>.<table> LIMIT 10;
