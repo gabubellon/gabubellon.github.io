@@ -30,7 +30,7 @@ sections:
 - type: directory
   path: _wiki
   label: Wiki
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - wiki
