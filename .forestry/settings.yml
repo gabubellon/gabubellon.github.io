@@ -32,6 +32,8 @@ sections:
   label: Wiki
   create: all
   match: "**/*"
+  templates:
+  - wiki
 - type: heading
   label: Stuffs
 - type: directory
