@@ -7,9 +7,7 @@ published: false
 
 ---
 # SQL
-
 ---
-
 Retornando apenas as primeiras 10 Linhas
 
 ```sql
