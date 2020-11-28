@@ -11,3 +11,5 @@ fields:
   type: tag_list
   default: []
   label: tags
+pages:
+- _wiki/git.md.md
