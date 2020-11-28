@@ -2,7 +2,7 @@
 tags:
 - git
 - git branch
-name: git
+name: git\branch
 published: false
 
 ---
