@@ -3,7 +3,6 @@ tags:
 - git
 - git branch
 name: git/branch
-published: false
 
 ---
 # Criando uma branch de outra branch
