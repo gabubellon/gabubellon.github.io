@@ -12,4 +12,5 @@ fields:
   default: []
   label: tags
 pages:
+- _wiki/git-branch.md
 - _wiki/git.md.md
