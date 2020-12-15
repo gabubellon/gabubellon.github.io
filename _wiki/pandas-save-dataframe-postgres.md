@@ -2,7 +2,7 @@
 tags:
 - pandas
 - postgres
-name: wiki/python/pandas
+name: python/pandas
 published: false
 
 ---
