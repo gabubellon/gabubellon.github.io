@@ -2,7 +2,7 @@
 tags:
 - pandas
 - postgres
-name: pandas/save dataframe postgres
+name: wiki/python/pandas
 published: false
 
 ---
