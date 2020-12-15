@@ -1,8 +1,8 @@
 ---
 tags:
 - pandas
-- postgres
-name: python/pandas
+- python
+name: python\pandas\postgres
 published: false
 
 ---
