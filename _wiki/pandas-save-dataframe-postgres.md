@@ -3,7 +3,7 @@ tags:
 - pandas
 - python
 - postgres
-name: python&pandas8postgres
+name: pythonpandaspostgres
 
 ---
 # Salvando dados do pandas no postgres
