@@ -1,10 +1,10 @@
 ---
-name: Pybot JOI
+name: Pybot JOI Bridge
 tags:
 - escrita
 - poesia
 image: ''
-description: ''
+description: Um bot para integrar Discord e Telegram
 external_url: https://github.com/MakersNetwork/pyjoibot
 title: 2-pyjoibot
 tag:
