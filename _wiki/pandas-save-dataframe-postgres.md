@@ -3,7 +3,7 @@ tags:
 - pandas
 - python
 - postgres
-name: python\pandas\postgres
+name: python/pandas/postgres
 
 ---
 # Salvando dados do pandas no postgres
