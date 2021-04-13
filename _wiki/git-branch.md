@@ -2,17 +2,19 @@
 tags:
 - git
 - git branch
-name: git/branch
+name: git
 
 ---
-# Criando uma branch de outra branch
+# Criar uma branch a partir de outra
 
-Cria uma branch a partir da `main` chamada `branch_name`
-```bash
-git checkout -b branch_name
-````
+Cria uma nova branch `branch_new`a partir da `main` 
 
-Cria uma branch a partir da `branch_name` chamada `branch_da_branch` 
 ```bash
-git checkout -b branch_name branch_da_branch
+git checkout -b branch_new
+```
+
+Cria uma branch `branch_new_of_new` a partir da `branch_new`
+
+```bash
+git checkout -b branch_new branch_new_of_new
 ```
