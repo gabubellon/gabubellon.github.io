@@ -11,3 +11,6 @@ fields:
   type: tag_list
   default: []
   label: tags
+pages:
+- _wiki/git-branch.md
+- _wiki/python-pandas-postgres.md

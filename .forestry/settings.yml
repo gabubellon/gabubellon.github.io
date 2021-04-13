@@ -22,11 +22,15 @@ sections:
   create: all
   match: "**/*.md"
   new_doc_ext: md
+  templates:
+  - projects
 - type: directory
   path: _presentations
   label: Presentations
   create: all
   match: "**/*"
+  templates:
+  - presentations
 - type: directory
   path: _wiki
   label: Wiki
