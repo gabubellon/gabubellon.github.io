@@ -13,4 +13,4 @@ fields:
   label: tags
 pages:
 - _wiki/git\branch.md
-- _wiki/pandas-save-dataframe-postgres.md
+- _wiki/python-pandas-postgres.md
