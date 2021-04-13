@@ -28,5 +28,5 @@ df_to_table[table_cols].to_csv(csv_file,index=False)
 db_conn = psycopg2.connect(" ".join(\[f"{key}={value}" for key, value in db_connection.items()\]))
 with db_conn.cursor() as cursor:
 	cursor.copy_expert(sql=copy_sql, file=open(csv_file, "r"))
-  db_conn.commit()
+    db_conn.commit()
 ```
