@@ -1,12 +1,16 @@
 ---
-name: Loucura Devaneia
+name: Pybot JOI
 tags:
 - escrita
 - poesia
-image: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQk8XjZpNTjBXAGd6AalWo2vIaJrdqxNfDOeg&usqp=CAU
-description: 'Um pouco de poesia '
-external_url: http://loucuradevaneia.com/
+image: ''
+description: ''
+external_url: https://github.com/MakersNetwork/pyjoibot/pull/2
 title: 2-pyjoibot
-published: false
+tag:
+- python
+- bot
+- telegram
+- discord
 
 ---
