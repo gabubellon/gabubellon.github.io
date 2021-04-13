@@ -4,9 +4,9 @@ tag:
 - telegram
 - 'bot '
 - discord
-name: Bot Bridge Discord Telegram
+name: ''
 image: ''
-description: Bot Bridge Discord Telegram
+description: ''
 external_url: https://github.com/MakersNetwork/pyjoibot
 published: false
 
