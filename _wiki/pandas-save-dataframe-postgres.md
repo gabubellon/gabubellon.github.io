@@ -4,7 +4,7 @@ tags:
 - python
 - postgres
 - wiki
-name: python&pandaspostgres
+name: python/pandas/postgres
 
 ---
 # Salvando dados do pandas no postgres
