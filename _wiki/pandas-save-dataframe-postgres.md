@@ -3,6 +3,7 @@ tags:
 - pandas
 - python
 - postgres
+- wiki
 name: python&pandaspostgres
 
 ---
