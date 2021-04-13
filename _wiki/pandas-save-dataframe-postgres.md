@@ -4,7 +4,6 @@ tags:
 - python
 - postgres
 name: python\pandas\postgres
-published: false
 
 ---
 # Salvando dados do pandas no postgres
