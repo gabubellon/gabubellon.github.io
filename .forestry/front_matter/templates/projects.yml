@@ -1,14 +1,14 @@
 ---
-label: project_presentation
+label: project
 hide_body: true
 fields:
 - type: text
   name: name
   label: name
-- name: tag
+- name: tools
   type: tag_list
   default: []
-  label: tag
+  label: tools
 - name: image
   type: text
   config:
