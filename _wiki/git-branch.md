@@ -2,6 +2,7 @@
 tags:
 - git
 - git branch
+- wiki
 name: git
 
 ---
