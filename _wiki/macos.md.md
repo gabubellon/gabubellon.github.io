@@ -4,6 +4,7 @@ tags:
 - wiki
 - macos
 - apple
+- mac
 title: macos.md
 
 ---
