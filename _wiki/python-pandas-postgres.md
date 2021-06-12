@@ -7,7 +7,10 @@ tags:
 name: python/pandas/postgres
 
 ---
-# Salvando dados do pandas no postgres
+# PANDAS/POSTGRES
+---
+
+## Salvando dados do pandas no postgres
 
 ```python
 import psycopg2
