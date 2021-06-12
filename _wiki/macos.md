@@ -6,6 +6,7 @@ tags:
 - apple
 - mac
 title: macos.md
+published: false
 
 ---
 # MacOS
