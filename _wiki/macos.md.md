@@ -9,8 +9,7 @@ title: macos.md
 
 ---
 # MacOS
-***
-
+---
 ## Codecs AptX e AAC
 
 - Ativando AptX e AAC na linha de comando (Catalina e BigSur):
