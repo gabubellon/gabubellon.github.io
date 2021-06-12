@@ -9,7 +9,6 @@ title: macos.md
 
 ---
 # MacOS
-
 ***
 
 ## Codecs AptX e AAC
