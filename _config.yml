@@ -3,7 +3,7 @@ title               : Gabu Bellon Personal Page
 description         : "I`m Gabriel Bellon, aka Gabu, and this my personal homepage! You are welcome !"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : gabubellon/gabubellon.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU@v2.2.2
+remote_theme        : YoussefRaafatNasry/portfolYOU@v2.3.0
 url                 : http://gabubellon.me
 
 
@@ -16,6 +16,7 @@ plugins:
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/404.html
   - pages/index.md
+  - documentation/partials/**   
 
 
 ### Author Info ###
