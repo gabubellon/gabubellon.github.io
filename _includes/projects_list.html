@@ -64,14 +64,15 @@
     </li>   
     {%- endif -%}
 
-    {%-for tag in item.git_projects-%}
+    <!-- {%-for tag in item.git_projects-%}
     <li>
         <a href="{{ item.url }}">{{ item.title }}</a>-<i>{{- item.description -}}</i> 
         <br>
         [{%-for tag in item.tags-%} {{tag}} {% endfor %}]
     </li> 
+    {% endfor %} -->
     {% endfor %}
+    asasa
 
-
-    {% endfor %}
+    {{site.github.public_repositories }}
 </ul>
