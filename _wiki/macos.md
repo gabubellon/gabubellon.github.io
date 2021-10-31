@@ -5,7 +5,7 @@ tags:
 - macos
 - apple
 - mac
-
+layout: post
 ---
 # MacOS
 

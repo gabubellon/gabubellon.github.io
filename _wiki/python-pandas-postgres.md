@@ -5,7 +5,7 @@ tags:
 - postgres
 - wiki
 name: python/pandas/postgres
-
+layout: post
 ---
 # PANDAS/POSTGRES
 ---

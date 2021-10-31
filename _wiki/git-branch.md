@@ -4,7 +4,7 @@ tags:
 - git branch
 - wiki
 name: git
-
+layout: post
 ---
 # GIT
 *******

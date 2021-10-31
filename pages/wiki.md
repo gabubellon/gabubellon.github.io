@@ -1,10 +1,5 @@
 ---
-layout: default
+layout: wiki
 title: Wiki
 permalink: /wiki/
-weight: 5
 ---
-
-# **Wiki**
-
-{% include wiki/wiki-articles.html %}

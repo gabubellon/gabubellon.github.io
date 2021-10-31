@@ -1,0 +1,32 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: about
+    entries:
+      - title: timeline
+      - title: my projects
+        url: /projects
+      - title: my presentations
+        url: /presentations
+  - title: wiki
+    url: /wiki     
+  - title: all posts
+    post_list:
+      limit: 3
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: pages/archive.html
+
+  - title: posts by category
+    post_list:
+      category: example2
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
+
+  - title: rss
+    url: feed.xml
+
+  - title: site layout customize over
+    url: https://github.com/riggraz/no-style-please

@@ -1,10 +1,5 @@
 ---
-layout: page
-title: Presentations
+layout:  presentations
+title: Presentation
 permalink: /presentations/
-weight: 3
 ---
-
-# **My Presentation**
-
-{% include presentations/index.html %}

@@ -3,7 +3,7 @@ name: sql
 tags:
 - sql
 - wiki
-
+layout: post
 ---
 # SQL
 ---

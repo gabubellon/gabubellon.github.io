@@ -1,13 +1,12 @@
 ---
 title: Testando do Forestry.io
-tags: [blog,forestry.io]
-style: fill
-color: warning
 description: Testando um post do  Forestry.io
-date: 2020-08-16 00:00:00 -0300
-
+date: 2020-08-16
+category: post
+tags: [blog,forestry.io]
+layout: post
 ---
-## Post pelo Forestry.io !
+## Post pelo Forestry.io!
 
 Esse é apenas um post teste para verificar se o Forestry.io está configurado corretamente
 
