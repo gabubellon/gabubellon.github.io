@@ -56,23 +56,45 @@
 
 <ul>
     {%-for item in include.collection-%}
+
+    <!-- Local Projects -->
     {%- if item.title -%}
     <li>
         <a href="{{ item.url }}">{{ item.title }}</a>-<i>{{- item.description -}}</i> 
         <br>
-        [{%-for tag in item.tags-%} {{tag}} {% endfor %}]
-    </li>   
+        [&nbsp;{%-for tag in item.tags-%}{{tag}} {% endfor %} ]
+    </li><br>   
     {%- endif -%}
+        
+        <!-- Remote Projects -->
+        {%-for git_project in item.git_projects-%}
 
-    <!-- {%-for tag in item.git_projects-%}
-    <li>
-        <a href="{{ item.url }}">{{ item.title }}</a>-<i>{{- item.description -}}</i> 
-        <br>
-        [{%-for tag in item.tags-%} {{tag}} {% endfor %}]
-    </li> 
-    {% endfor %} -->
+            {%- for repo in site.github.public_repositories -%}
+
+                {%- if git_project == repo.name -%}
+    
+                    {%- assign project = repo -%}
+                    {%- assign words = project.name | split: '-' -%}
+            
+                    {%- capture titlecase -%}
+                        {%- for word in words -%}
+                        {{ word | capitalize | append: ' ' }}
+                        {%- endfor -%}
+                    {%- endcapture -%}
+
+                    {%- assign title  = titlecase | strip -%}
+                    {%- assign description  = project.description -%}
+                    {%- assign url   = project.html_url -%}
+                    <li>
+                        <a href="{{ url }}">{{ title }}</a>-<i>{{- description -}}</i> 
+                        <br>
+                        {% assign tag_size =  project.topics | size %}
+                        {% if tag_size > 0 %} 
+                            [&nbsp;{%-for tag in  project.topics-%} {{tag}} {% endfor %} ]
+                        {%- endif -%}
+                    </li><br>
+                {%- endif -%}
+            {%- endfor -%}
+        {% endfor %}
     {% endfor %}
-    asasa
-
-    {{site.github.public_repositories }}
 </ul>
