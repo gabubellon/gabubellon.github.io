@@ -1,0 +1,32 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: about me
+    entries:
+      - title: my timeline
+        url: /timeline
+      - title: my projects
+        url: /projects
+      - title: my presentations
+        url: /presentations
+  - title: wiki
+    url: /wiki     
+  - title: all posts
+    post_list:
+      limit: 30
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: pages/archive.html
+
+  # - title: posts by category
+  #   post_list:
+  #     category: example2
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
+
+  - title: rss
+    url: feed.xml
+
+  - title: used <a href=https://github.com/YoussefRaafatNasry/portfolYOU>this</a> and <a href=https://github.com/riggraz/no-style-please>this</a> to build custom theme.

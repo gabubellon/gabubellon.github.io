@@ -1,0 +1,21 @@
+projects:
+  - title: Loucura Devaneia
+    description: Um pouco de poesia
+    tags: [escrita, poesia] 
+    url:  http://loucuradevaneia.com/
+  - title: Pybot JOI Bridge
+    description: Um bot para integrar Discord e Telegram
+    tags: [python, bot, telegram, discord]
+    url:  https://github.com/MakersNetwork/pyjoibot
+  - git_projects: 
+    - xp-ds-joi-2019
+    - streamyard-downloader
+    - pybr2020opendata
+    - one-docker
+    - zap
+    - colab_with_googlecolab
+
+
+
+
+

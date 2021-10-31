@@ -4,12 +4,12 @@ tags:
 - python
 - postgres
 - wiki
-name: python/pandas/postgres
-
----
-# PANDAS/POSTGRES
+title: python/pandas/postgres
+layout: post
 ---
 
+
+---
 ## Salvando dados do pandas no postgres
 
 ```python

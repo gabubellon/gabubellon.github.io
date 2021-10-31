@@ -1,10 +1,10 @@
 ---
 title: Combinando o virtualenvwarpper com o pyenv 
-tags: [pyenv,python,virtualenv,code,virtualenvwarpper]
-style: fill
-color: dark
 description: Como configurar e utilizar o virtualenvwarpper junto com pyenv para ambientes virtuais.
 date: 2020-01-10
+category: code
+tags: [pyenv,python,virtualenv,code,virtualenvwarpper]
+layout: post
 ---
 
 ## virtualenvwarpper e pyenv

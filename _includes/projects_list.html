@@ -1,0 +1,100 @@
+  <!--<ul>-->
+  <!-- Remote Projects -->
+ <!-- {% for remote_project in page.remote_projects %}
+
+    {%- for repo in site.github.public_repositories -%}
+
+      {%- if remote_project == repo.name -%}
+
+        {%- assign project = repo -%}
+        {%- assign words = project.name | split: '-' -%}
+        
+        {%- capture titlecase -%}
+          {%- for word in words -%}
+            {{ word | capitalize | append: ' ' }}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {%- assign project_type  = "remote" -%}
+        {%- assign project_id    = project.name -%}
+        {%- assign project_img   = false -%}
+        {%- assign project_name  = titlecase | strip -%}
+        {%- assign project_desc  = project.description -%}
+        {%- assign project_url   = project.html_url -%}
+        {%- assign project_tools = project.topics -%}
+
+        <a href="{{ project_url }}"> {{ project_name }}</a>
+
+      {%- endif -%}
+
+    {%- endfor -%}
+
+  {% endfor %}-->
+
+  <!-- Local Projects -->
+ <!-- {% for project in site.projects %}
+
+    {%- assign project_type  = "local" -%}
+    {%- assign project_id    = project.name | slugify -%}
+    {%- assign project_img   = project.image -%}
+    {%- assign project_name  = project.name -%}
+    {%- assign project_desc  = project.description -%}
+    {%- assign project_tools = project.tools -%}
+
+    {%- if project.external_url -%}
+      {%- assign project_url = project.external_url -%}
+    {%- else -%}
+      {%- assign project_url = project.url | relative_url -%}
+    {%- endif -%}
+
+    <a href="{{ project_url }}"> {{ project_name }}</a>
+
+  {% endfor %}
+
+  </ul> -->
+
+
+<ul>
+    {%-for item in include.collection-%}
+
+    <!-- Local Projects -->
+    {%- if item.title -%}
+    <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>-<i>{{- item.description -}}</i> 
+        <br>
+        [&nbsp;{%-for tag in item.tags-%}{{tag}} {% endfor %} ]
+    </li><br>   
+    {%- endif -%}
+        
+        <!-- Remote Projects -->
+        {%-for git_project in item.git_projects-%}
+
+            {%- for repo in site.github.public_repositories -%}
+
+                {%- if git_project == repo.name -%}
+    
+                    {%- assign project = repo -%}
+                    {%- assign words = project.name | split: '-' -%}
+            
+                    {%- capture titlecase -%}
+                        {%- for word in words -%}
+                        {{ word | capitalize | append: ' ' }}
+                        {%- endfor -%}
+                    {%- endcapture -%}
+
+                    {%- assign title  = titlecase | strip -%}
+                    {%- assign description  = project.description -%}
+                    {%- assign url   = project.html_url -%}
+                    <li>
+                        <a href="{{ url }}">{{ title }}</a>-<i>{{- description -}}</i> 
+                        <br>
+                        {% assign tag_size =  project.topics | size %}
+                        {% if tag_size > 0 %} 
+                            [&nbsp;{%-for tag in  project.topics-%} {{tag}} {% endfor %} ]
+                        {%- endif -%}
+                    </li><br>
+                {%- endif -%}
+            {%- endfor -%}
+        {% endfor %}
+    {% endfor %}
+</ul>

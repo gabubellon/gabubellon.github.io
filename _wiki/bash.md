@@ -1,13 +1,11 @@
 ---
-name: bash
-tags:
-- bash
-- wiki
+title: bash
+tags: [bash,wiki]
+layout: post
+---
 
 ---
-# BASH
----
-## Renomenando todos os arquivos de de uma extensão para letras minusculas
+# Renomenando todos os arquivos de de uma extensão para letras minusculas
 
 Renomeia todos os arquivos de uma pasta e subpastas para letras minusculas que terminem com uma extensão
 

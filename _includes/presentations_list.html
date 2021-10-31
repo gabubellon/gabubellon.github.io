@@ -1,0 +1,15 @@
+<ul>
+    <!-- Presentation -->
+    {% for presentations in site.presentations reversed%}
+    {%- if presentations.external_url -%}
+        {%- assign presentations_url = presentations.external_url -%}
+    {%- else -%}
+        {%- assign presentations_url = presentations.url | relative_url -%}
+    {%- endif -%}
+    <li>
+        <span>{{- presentations.date | date: site.theme_config.date_format -}}</span>
+        <a href="{{ presentations_url }}"> {{ presentations.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+

@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: post
 title: About
-permalink: /about/
-weight: 1
 ---
 
 # **About Me**
@@ -24,12 +22,3 @@ Talk about my career :man_office_worker:, this is  developed in the Business and
 * Requirements analysis and scope for implementation and project development;
 * Structuring processes and creating environments for the provision of information;
 * Building simple and complex algorithms for data integration and analysis.
-
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
-
-<div class="row">
-{% include about/timeline.html %}
-</div>

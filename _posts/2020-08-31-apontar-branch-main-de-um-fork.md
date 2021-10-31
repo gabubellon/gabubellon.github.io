@@ -1,15 +1,10 @@
 ---
 title: Apontar uma branch de um fork para a branch principal do repo original
-tags:
-- tips-tricks
-- github
-- git
-style: fill
-color: success
 description: Como manter seu fork sempre com um brach atualizada com o repo original.
-date: 2020-08-31T00:00:00.000-03:00
-tagsx: []
-
+date: 2020-08-31
+category: code
+tags: [tips-tricks,github,git]
+layout: post
 ---
 ## Fork sempre atualizado !
 
