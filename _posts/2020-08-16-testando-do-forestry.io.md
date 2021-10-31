@@ -2,7 +2,7 @@
 title: Testando do Forestry.io
 description: Testando um post do  Forestry.io
 date: 2020-08-16
-category: post
+category: blog
 tags: [blog,forestry.io]
 layout: post
 ---

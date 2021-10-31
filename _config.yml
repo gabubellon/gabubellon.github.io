@@ -8,10 +8,16 @@ url                 : http://gabubellon.me
 
 #theme: no-style-please
 theme_config:
-  appearance: "light" # can be "light", "dark" or "auto"
+  appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: "back" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page
+
+sass:
+  style: :compressed
+
+favicon: "favicon.ico"
+goat_counter: gabubellon
 
 ### Plugins ###
 plugins:
@@ -20,14 +26,7 @@ plugins:
   - jemoji
 
 
-# ### Navbar Settings ###
-# nav_exclude:                                            # The following paths are excluded from navbar
-#   - pages/404.html
-#   - pages/index.md
-#   - documentation/partials/**   
-
-
-# ### Author Info ###
+### Author Info ###
 author:
   name              : Gabriel Bellon
   image             : https://avatars1.githubusercontent.com/u/7385097?s=400&u=96a78b93bc515a8b6a215a19f0804bf66d09d7ea&v=4
@@ -52,26 +51,7 @@ collections:
   wiki:
       output: true
       permalink: /wiki/:name
-      
-# ### Defaults for collections ###
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "projects"
-#     values:
-#       layout: "page"
-#   - scope:
-#       path: ""
-#       type: "presentations"
-#     values:
-#       layout: "page"
-#   - scope:
-#       path: ""
-#       type: "wiki"
-#     values:
-#       layout: "page"
-      
-### Exclude from processing ###
+
 exclude:
   - README.md
   - CONTRIBUTING.md

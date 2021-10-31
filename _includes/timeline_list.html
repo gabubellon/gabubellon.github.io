@@ -1,0 +1,12 @@
+<ul>
+    <!-- Timeline -->
+    {% for item in site.data.timeline%}
+    <li>
+        <!-- <span>{{- presentations.date | date: site.theme_config.date_format -}}</span> -->
+        [{{item.from}}-{{item.to}}]<br>
+        <b>{{ item.title }}</b><br>
+        <i>{{item.description}}</i>
+    </li>
+    ---
+    {% endfor %}
+</ul>

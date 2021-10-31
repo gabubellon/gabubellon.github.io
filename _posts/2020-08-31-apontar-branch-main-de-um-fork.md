@@ -2,7 +2,7 @@
 title: Apontar uma branch de um fork para a branch principal do repo original
 description: Como manter seu fork sempre com um brach atualizada com o repo original.
 date: 2020-08-31
-category: post
+category: code
 tags: [tips-tricks,github,git]
 layout: post
 ---

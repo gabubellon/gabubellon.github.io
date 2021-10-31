@@ -1,5 +1,5 @@
 ---
-name: macos
+title: macos
 tags:
 - wiki
 - macos
@@ -7,9 +7,8 @@ tags:
 - mac
 layout: post
 ---
-# MacOS
 
-***
+---
 
 ## Codecs AptX e AAC
 

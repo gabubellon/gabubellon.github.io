@@ -5,13 +5,11 @@ tags:
 - github
 - segurança
 - security
-style: fill
-color: warning
 title: Criando Chave GPG no MacOS e Assinando Commits no Github
 description: Como criar e gerenciar chaves GCP no MacOS e utilizar as mesmas para
   assinar seus commits no githut
 date: 2020-11-12
-category: post
+category: code
 layout: post
 ---
 Tutorial github:

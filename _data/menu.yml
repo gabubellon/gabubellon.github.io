@@ -5,6 +5,7 @@ entries:
   - title: about me
     entries:
       - title: my timeline
+        url: /timeline
       - title: my projects
         url: /projects
       - title: my presentations

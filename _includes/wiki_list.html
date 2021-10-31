@@ -3,8 +3,8 @@
     {% for wiki in site.wiki %}
 
   {%- assign wiki_type  = "local" -%}
-  {%- assign wiki_id    = wiki.name | slugify -%}
-  {%- assign wiki_name  = wiki.name -%}
+  {%- assign wiki_id    = wiki.title | slugify -%}
+  {%- assign wiki_name  = wiki.title -%}
   {%- assign wiki_url = wiki.url | relative_url -%}
         <li>
             <a href="{{ wiki_url }}">wiki/{{ wiki_id }}</a> 

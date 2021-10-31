@@ -2,10 +2,8 @@
 title: 'Pessoas + Tecnologia > Pandemia '
 description: Python Brasil 2020 em poesia :D
 date: 2020-11-03
-style: border
-color: light
 tags: [python, poesias, python brasil]
-category: post
+category: blog
 layout: post
 ---
 Senti falta dos abraços e aperto de mão das **_PESSOAS_**

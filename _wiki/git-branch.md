@@ -1,14 +1,10 @@
 ---
-tags:
-- git
-- git branch
-- wiki
-name: git
+tags: [git,git branch,wiki]
+title: git
 layout: post
 ---
-# GIT
-*******
 
+---
 ## Criar uma branch a partir de outra
 
 - Criar uma nova branch `branch_new`a partir da `main` 
