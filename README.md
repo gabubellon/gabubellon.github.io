@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/gabubellon/gabubellon.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/gabubellon/gabubellon.github.io/actions/workflows/pages/pages-build-deployment)
+
 # gabubellon.github.io
 This is my personal site
 
