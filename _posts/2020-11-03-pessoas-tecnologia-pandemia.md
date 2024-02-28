@@ -1,11 +1,11 @@
 ---
-title: 'Pessoas + Tecnologia > Pandemia '
-description: Python Brasil 2020 em poesia :D
-date: 2020-11-03
-tags: [python, poesias, python brasil]
-category: blog
 layout: post
+title:  'Pessoas + Tecnologia > Pandemia'
+author: gabu
+categories: [blog]
+description: 'Python Brasil 2020 em poesia :D'
 ---
+
 Senti falta dos abraços e aperto de mão das **_PESSOAS_**
 <br>`que não puder ter ou dar`...
 <br>

@@ -4,7 +4,7 @@ clean:
 build:
 	bundle exec jekyll build 
 
-local-server:
+local:
 	bundle exec jekyll serve
 
 install:

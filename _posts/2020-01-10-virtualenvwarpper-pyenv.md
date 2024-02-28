@@ -1,12 +1,11 @@
 ---
-title: Combinando o virtualenvwarpper com o pyenv 
-description: Como configurar e utilizar o virtualenvwarpper junto com pyenv para ambientes virtuais.
-date: 2020-01-10
-category: code
-tags: [pyenv,python,virtualenv,code,virtualenvwarpper]
 layout: post
+title:  Combinando o virtualenvwarpper com o pyenv 
+author: gabu
+categories: [pyenv,python,virtualenv,code,virtualenvwarpper]
+description: Como configurar e utilizar o virtualenvwarpper junto com pyenv para ambientes virtuais.
+featured: true
 ---
-
 ## virtualenvwarpper e pyenv
 
 O virtualenvwarpper é um plugin que que cria alguns a facilitadores e atalhos para utilizar ambientes virtuais com o python. Mais detalhes na documentação oficial: <https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html>.

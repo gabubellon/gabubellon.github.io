@@ -1,0 +1,64 @@
+### Site Settings ###
+title               : Gabu Bellon
+description         : "I`m Gabriel Bellon, aka Gabu, and this my personal homepage!"
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : gabubellon/gabubellon.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : riggraz/no-style-please@v0.3.1
+url                 : http://gabubellon.me
+
+#theme: no-style-please
+theme_config:
+  appearance: "light" # can be "light", "dark" or "auto"
+  back_home_text: "back" # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description in home page
+
+sass:
+  style: :compressed
+
+favicon: "favicon.ico"
+goat_counter: gabubellon
+
+### Plugins ###
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+
+
+### Author Info ###
+author:
+  name              : Gabriel Bellon
+  image             : https://avatars1.githubusercontent.com/u/7385097?s=400&u=96a78b93bc515a8b6a215a19f0804bf66d09d7ea&v=4
+  email             : talk@gabubellon.me
+  github            : gabubellon
+  twitter           : gabubellon
+  linkedin          : gabubellon
+  speakerdeck       : gabubellon
+
+
+### Posts ###
+permalink: /blog/:title
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  presentations:
+      output: true
+      permalink: /presentations/:name
+  wiki:
+      output: true
+      permalink: /wiki/:name
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - CNAME
+  - Makefile
+  - "*.log"
+  - favicon_io
+  - vendor
+  - "*_old"
