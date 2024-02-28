@@ -1,35 +1,26 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About
 permalink: /about
 comments: false
 ---
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+# **About Me**
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+Hi I am **{{ site.author.name }}** :wave:
+🛠
+I'm a geek interested in understanding how things work :nerd_face:.
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+Be it completing a game :video_game:, reading all the books I can :books:, seeing a very good trilogy :movie_camera: or even understanding the difference in flavors between the beers I can :beers:!
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+I like to know about philosophy and politics and understand how it impacts our world and our society :world_map: ! I believe that healthy discussions are good for our life constructions :speech_ballon:
 
-<h4>Questions or bug reports?</h4>
+Talk about my career :man_office_worker:, this is  developed in the Business and Data Intelligence areas for the following business segments: Retail, Industrial, Pharmaceutical, Telecommunications and Financial Services with over 10 years of experience in Information Technology focused on implementing data models focused on analysis and data science :bar_chart: 
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
-
-</div>
-</div>
-</div>
+* Modeling and implementation of transactional and relational databases;
+* Modeling and implementation of structure to analysis of large data volumetry;
+* Database maintaining and updating;
+* Knowledge in enterprise business rules;
+* Requirements analysis and scope for implementation and project development;
+* Structuring processes and creating environments for the provision of information;
+* Building simple and complex algorithms for data integration and analysis.
