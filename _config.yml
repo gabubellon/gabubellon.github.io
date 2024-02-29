@@ -1,64 +1,65 @@
-### Site Settings ###
-title               : Gabu Bellon
-description         : "I`m Gabriel Bellon, aka Gabu, and this my personal homepage!"
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : gabubellon/gabubellon.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : riggraz/no-style-please@v0.3.1
-url                 : http://gabubellon.me
+# Site
+name: "Gabulandia"
+title: "Gabulandia"
+description: "Um espaoço para despejar minha mente"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+include: ["_pages"]
+permalink: /:title/
 
-#theme: no-style-please
-theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: "back" # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description in home page
+# google_analytics: 'UA-46278016-1'
+# disqus: 'demowebsite'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
-sass:
-  style: :compressed
+# Authors
+authors:
+  gabu:
+    name: Gabu
+    display_name: Gabu    
+    avatar: 'assets/images/gabu_avatar.png'
+    #gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: talk@bllon.co
+    web: https://bllon.co
+    twitter: https://twitter.com/gabubellon
+    description: "Esse que voz fala!"
 
-favicon: "favicon.ico"
-goat_counter: gabubellon
-
-### Plugins ###
+# Plugins
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jemoji
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 12
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
-### Author Info ###
-author:
-  name              : Gabriel Bellon
-  image             : https://avatars1.githubusercontent.com/u/7385097?s=400&u=96a78b93bc515a8b6a215a19f0804bf66d09d7ea&v=4
-  email             : talk@gabubellon.me
-  github            : gabubellon
-  twitter           : gabubellon
-  linkedin          : gabubellon
-  speakerdeck       : gabubellon
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
 
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
 
-### Posts ###
-permalink: /blog/:title
-
-### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name
-  presentations:
-      output: true
-      permalink: /presentations/:name
-  wiki:
-      output: true
-      permalink: /wiki/:name
-
-exclude:
-  - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - CNAME
-  - Makefile
-  - "*.log"
-  - favicon_io
-  - vendor
-  - "*_old"
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock,old/]
