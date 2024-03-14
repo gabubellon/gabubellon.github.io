@@ -1,10 +1,9 @@
 ---
-tags: [aws,python,sagemaker,data science]
-title: Exemplo de Projeto Utilizando Sagemaker MultiModel
-description: Blog Post na AWS com um projeto de SageMaker Multi Model
-date: 2021-04-30
 layout: post
-category: code
+title:  'Exemplo de Projeto Utilizando Sagemaker MultiModel'
+author: gabu
+categories: [aws,python,sagemaker,data science]
+description: 'Blog Post na AWS com um projeto de SageMaker Multi Model'
 ---
 
 Este é um post feito a muitas mãos de um projeto dentro da Conta Azul junto a AWS

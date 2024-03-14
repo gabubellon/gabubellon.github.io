@@ -1,10 +1,9 @@
-
 ---
+layout: post
 title: Title
 description: Description
-date: yyyy-mm-dd
-category: cat
-tags: []
-layout: post
+author: gabu
+categories: []
+# image: assets/images/post/image
+featured: false
 ---
-
