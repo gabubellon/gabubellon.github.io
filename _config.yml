@@ -1,16 +1,16 @@
 # Site
-name: "Gabulandia"
-title: "Gabulandia"
-description: "Um espaoço para despejar minha mente"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+name: "Gabulândia"
+title: "Gabulândia"
+description: "Um pouco de Tecnologia, um pouco de Lisergia."
+logo: 'assets/images/gabulandia_logo.png'
+favicon: 'assets/images/gabulandia_logo.png'
 baseurl: ''
 include: ["_pages"]
 permalink: /:title/
 
-# google_analytics: 'UA-46278016-1'
-# disqus: 'demowebsite'
-# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# google_analytics: ''
+# disqus: ''
+# mailchimp-list: ''
 
 # Authors
 authors:
@@ -18,7 +18,7 @@ authors:
     name: Gabu
     display_name: Gabu    
     avatar: 'assets/images/gabu_avatar.png'
-    #gravatar: b1cc14991db7a456fcd761680bbc8f81
+    #gravatar: 
     email: talk@bllon.co
     web: https://bllon.co
     twitter: https://twitter.com/gabubellon
