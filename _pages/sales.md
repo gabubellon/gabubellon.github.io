@@ -25,32 +25,25 @@ RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<br>
 ![forno_micro](/assets/images/sales/forno.jpg){: width="250" }
 
 ---
-## COMBO FORNO+MICRONDAS
+## COMBO ASSADOS & COZIDOS
 
-Como Microondas + Forno<br>
+Combo Microondas + Forno<br>
 R$650<br>
 RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<br>
 ![forno_micro](/assets/images/sales/forno_micro.jpg){: width="250" }
 
 ---
-## GELADEIRA
 
-Geladeira Brastemp<br>
-R$800<br>
-RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<br>
-![forno_micro](/assets/images/sales/gela.jpg){: width="250" }
-
----
 ## MÁQUINA DE LAVAR
 Máquina de lavar Samsung<br>
-R$800<br>
+R$730,00<br>
 RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<br>
 ![forno_micro](/assets/images/sales/lava.jpg){: width="250" }
 
 ---
-## COMBO GELA E LAVA
-Máquina de lavar + Geladeira<br>
-R$1400<br>
+## COMBO LAVA+ASSA+GRATINA
+Combo Máquina de lavar+ Microondas + Forno<br>
+R$1450<br>
 RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<br>
 ![forno_micro](/assets/images/sales/gela_lava.jpg){: width="250" }
 
