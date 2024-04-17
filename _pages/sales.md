@@ -73,31 +73,14 @@ PRONTA RETIRADA<br>
 ![ar91](/assets/images/sales/Ar9_q1.jpeg){: width="250" }
 
 ---
-## 1 AR 9mil BTU LG 
 
-Ar LG 9mil BTU interver Quente e Frio<br>
-R$1.500,00<br>
-PRONTA RETIRADA<br>
-*São 2 mesmo*<br>
-![ar92](/assets/images/sales/Ar_9_2.jpeg){: width="250" }
-
----
-## AR 18mil BTU ELETROLUX 
-
-Ar ELETROLUX 18mil BTU  Quente e Frio<br>
-R$1.000,00<br>
-PRONTA RETIRADA<br>
-
-![ar18](/assets/images/sales/Ar_18.jpeg){: width="250" }
-
----
-** DESCONTO SE LEVAR MAIS DE 1 AR CONDICIONADO **
+TODOS OS AR FORAM VENDIDOS 
 
 ---
 
 # !!!ATENÇÃO!!!
 
-**OS ITENS DEVEM SER RETIRADOS NA SEMANA DE 29 DE MAIO** (AR CONDICIONADO JÁ PODEM SER RETIRADOS)
+**OS ITENS DEVEM SER RETIRADOS NA SEMANA DE 29 DE MAIO**
 
 
 **RETIRADA E TRANSPORTE POR CONTA DO COMPRADOR**
