@@ -42,18 +42,16 @@ RETIRADA NA SEMANA DE 29 DE MAIO<br>
 
 ---
 ## MÁQUINA DE LAVAR
-Geladeira Brastemp<br>
+Máquina de lavar Samsung<br>
 R$800<br>
 RETIRADA NA SEMANA DE 29 DE MAIO<br>
-Máquina de lavar Samsung<br>
 ![forno_micro](/assets/images/sales/lava.jpg){: width="250" }
 
 ---
 ## COMBO GELA E LAVA
-Geladeira Brastemp<br>
+Máquina de lavar + Geladeira<br>
 R$1400<br>
 RETIRADA NA SEMANA DE 29 DE MAIO<br>
-Máquina de lavar + Geladeira<br>
 ![forno_micro](/assets/images/sales/gela_lava.jpg){: width="250" }
 
 ---
