@@ -17,9 +17,9 @@ Microondas Consul <br>
 ## FORNO ELETRICO
 
 Forno Sapore <br>
-![forno_micro](/assets/images/sales/forno_micrO.jpg){: width="250" }
+![forno_micro](/assets/images/sales/forno.jpg){: width="250" }
 
----
+---****
 ## COMBO FORNO+MICRONDAS
 
 Como Microondas + **Forno**<br>
@@ -44,6 +44,34 @@ Máquina de lavar + Geladeira<br>
 ![forno_micro](/assets/images/sales/gela_lava.jpg){: width="250" }
 
 ---
+
+## 1 AR 9mil BTU LG 
+
+Ar LG 9mil BTU interver Quente e Frio<br>
+R$1.500,00
+PRONTA RETIRADA
+![forno_micro](/assets/images/sales/Ar9_q1.jpg){: width="250" }
+
+---
+## 1 AR 9mil BTU LG 
+
+Ar LG 9mil BTU interver Quente e Frio<br>
+R$1.500,00
+PRONTA RETIRADA
+*São 2 mesmo*
+![forno_micro](/assets/images/sales/Ar9_q2.jpg){: width="250" }
+
+---
+## AR 18mil BTU ELETROLUX 
+
+Ar ELETROLUX 18mil BTU  Quente e Frio<br>
+R$1.000,00
+PRONTA RETIRADA
+
+![forno_micro](/assets/images/sales/Ar18.jpg){: width="250" }
+
+---
+** DESCONTO SE LEVAR MAIS DE 1 AR CONDICIONADO **
 
 # !!!ATENÇÃO!!!
 
