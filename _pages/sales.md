@@ -28,8 +28,7 @@ RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<br>
 ## COMBO LAVA+ASSA
 Combo Máquina de lavar+ Forno<br>
 R$1000<br>
-RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<br>
-![forno_micro](/assets/images/sales/gela_lava.jpg){: width="250" }
+RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<
 
 ---
 
