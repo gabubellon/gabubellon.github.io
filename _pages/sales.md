@@ -18,20 +18,6 @@ RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<br>
 
 ---
 
-## MÁQUINA DE LAVAR
-Máquina de lavar Samsung<br>
-R$730,00<br>
-RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<br>
-![forno_micro](/assets/images/sales/lava.jpg){: width="250" }
-
----
-## COMBO LAVA+ASSA
-Combo Máquina de lavar+ Forno<br>
-R$1000<br>
-RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO<
-
----
-
 # !!!ATENÇÃO!!!
 
 **OS ITENS DEVEM SER RETIRADA NA SEMANA DE 29 DE ABRIL A 02 DE MAIO**
