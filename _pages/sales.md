@@ -62,14 +62,14 @@ Link oficial: [LINK](https://elg.com.br/produto/solucoes-inteligentes/suportes/s
 ![IMG_2493](https://github.com/user-attachments/assets/75e1ce4d-96e3-4d8f-9d2f-316ec09d3134)
 
 
-## Web Cam USB Logithec
+## Web Cam USB Logitech
 **PREÇO R$100,00**<br>
 
 Webcam HD Logitech C270, 720p com conexão USB
 
 Motivo da Venda: Sem uso a anos
 
-Link oficial: [LINK]([https://elg.com.br/produto/solucoes-inteligentes/suportes/suporte-articulado-de-mesa-c-pistao-a-gas-p-monitores-de-17-a-35-preto-f90usb.html](https://www.logitechstore.com.br/camera-webcam-hd-logitech-c270/)
+Link oficial: [LINK](https://www.logitechstore.com.br/camera-webcam-hd-logitech-c270/)
 
 ![IMG_2500](https://github.com/user-attachments/assets/4cbb439c-6eea-41c0-87dc-0304fa5d5365)
 
