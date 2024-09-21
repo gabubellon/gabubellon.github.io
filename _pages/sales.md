@@ -61,6 +61,23 @@ Link oficial: [LINK](https://elg.com.br/produto/solucoes-inteligentes/suportes/s
 ![IMG_2494](https://github.com/user-attachments/assets/f5f9100e-3df3-4519-a5f9-be0bd7b84d54)
 ![IMG_2493](https://github.com/user-attachments/assets/75e1ce4d-96e3-4d8f-9d2f-316ec09d3134)
 
+---
+
+## Fone Bluetooth JBL Tune 130NC TWS 
+**PREÇO R$100,00**<br>
+
+Fone  JBL Tune 130NC TWS Seminovo
+Compatível com Window, Mac , Android e iOS
+
+
+Motivo da Venda: O lado direito está guardando apenas entre 1h30m a 2h de bateria, enquando o lado esquerdo guarda de 2h30min a 3h
+
+Link oficial: [LINK](https://www.jbl.com.br/seminovos/TUNE130NCTWS-.html)
+![IMG_2558](https://github.com/user-attachments/assets/a4b36eff-adeb-46c3-ac6f-b2b879f52a45)
+![IMG_2557](https://github.com/user-attachments/assets/1a72f338-5f77-4771-abba-1944308ee5c8)
+
+
+
 ----
 
 # !!!ATENÇÃO!!!
