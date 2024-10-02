@@ -9,27 +9,9 @@ comments: false
 ---
 TODOS OS ITENS ESTÃO EM AMERICANA-SP
 ---
-## COMODA 6 GAVETAS
-**PREÇO R$500,00**<br>
-Cmoda Cozy Branca e Com Detalhes em Carvalhos com 6 Gavetas<br>
-Apresenta uma leve avaria em um dos cantos<br>
-Peso 54.5 kg<br>
-Comprimento 118,10 Centímetros<br>
-Largura 45,30 Centímetros<br>
-Altura 86,70 Centímetros<br>
-
-Motivo da venda: Ocupa muito espaço no quarto atualmente e está sobrando
-
-Link de uma nova para comparação: [LINK](https://www.abracadabra.com.br/comoda-6-gavetas-cozy-branco-com-carvalho/p)
-
-![IMG_2489](https://github.com/user-attachments/assets/9df516c2-0692-489e-aa47-cfff248825b0)
-![IMG_2490](https://github.com/user-attachments/assets/60b90bdd-bc73-4c17-b1a2-ae1be54c53b4)
-![IMG_2488](https://github.com/user-attachments/assets/1a5234f0-6234-4fb3-b7ff-0fac5897d561)
-
----
 
 ## Tenis Adidas Samba OG Tamanha 42 
-**PREÇO R$350,00**<br>
+**PREÇO R$300,00**<br>
 Tenis Adidas Samba OG Preto <br>
 Tamanho 42<br>
 Usado poucas vezes <br>
@@ -48,7 +30,7 @@ Link oficial: [LINK](https://www.adidas.com.br/tenis-samba-og/B75807.html?forceS
 ---
 
 ## Suporte Articulado ELG
-**PREÇO R$100,00**<br>
+**PREÇO R$90,00**<br>
 
 Suporte Articulado ELG, modelo F90 (SEM USB)
 Compatível com suporte de pressão ou furação
